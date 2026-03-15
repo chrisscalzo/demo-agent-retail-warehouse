@@ -1,0 +1,97 @@
+{
+  "title": "Nevada Labor Law Compliance",
+  "version": "1.0",
+  "category": "NV",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada labor law provides workers with meaningful protections, though they differ from California's in several important ways. Nevada follows federal FLSA overtime rules (weekly overtime only, unlike California's daily overtime), but has its own meal and rest break requirements, minimum wage structure, and other protections. This document summarizes key Nevada labor law requirements applicable to Contoso Retail Nevada warehouse team members." }
+      ]
+    },
+    {
+      "heading": "Minimum Wage",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada has a tiered minimum wage structure based on whether the employer offers qualifying health benefits:" },
+        { "type": "table", "headers": ["Tier", "Hourly Rate", "Condition"], "rows": [
+          ["Higher Tier", "Current Nevada minimum (check DIR posting)", "Employers who do not offer qualifying health insurance"],
+          ["Lower Tier", "Current Nevada minimum minus $1.00", "Employers who offer qualifying health insurance to the employee"]
+        ]},
+        { "type": "paragraph", "text": "The current Nevada minimum wage rates are posted on the break room labor law poster, updated annually on July 1. Contoso Retail pays at or above the applicable Nevada minimum wage. Contact HR if you have questions about which tier applies to you." }
+      ]
+    },
+    {
+      "heading": "Meal and Rest Breaks",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Break Type", "Nevada Requirement", "Paid?"], "rows": [
+          ["Rest Break", "10-minute paid rest for every 4 hours worked (NRS 608.019)", "Yes — paid"],
+          ["Meal Period", "30-minute meal break if working 8 or more continuous hours (NRS 608.019)", "No — unpaid (unless on-duty meal agreement)"],
+          ["Second Meal Period", "Not separately required by Nevada law (federal law applies)", "N/A"]
+        ]},
+        { "type": "paragraph", "text": "Key differences from California: Nevada requires a meal break only after 8 continuous hours (not 5 hours as in California). Nevada does not have a second mandatory meal break requirement. Nevada does not have a split-shift premium requirement." },
+        { "type": "paragraph", "text": "Rest breaks must be reasonably scheduled throughout the shift. Contoso Retail Nevada policy: breaks are scheduled at approximately 2 hours into the shift and 2 hours before shift end. Supervisors are responsible for ensuring all team members take their required breaks." }
+      ]
+    },
+    {
+      "heading": "Overtime Rules",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada overtime rules differ from California in that Nevada does not require daily overtime. Nevada overtime is calculated on a weekly basis in alignment with federal FLSA:" },
+        { "type": "table", "headers": ["Hours Worked", "Pay Rate"], "rows": [
+          ["First 40 hours in a workweek", "Regular rate"],
+          ["Hours above 40 in a workweek", "1.5× regular rate"],
+          ["Hours above 8 in a day (if daily wage is less than 1.5× min wage)", "1.5× regular rate — Nevada-specific daily OT for lower-wage workers"],
+          ["7th day of workweek (40 hours already worked)", "1.5× regular rate"]
+        ]},
+        { "type": "paragraph", "text": "Note: Nevada does have a limited daily overtime provision: if an employee's regular rate is less than 1.5× the Nevada minimum wage, daily overtime applies after 8 hours. For Contoso Retail team members (who earn above 1.5× minimum wage), only weekly overtime applies." },
+        { "type": "paragraph", "text": "Nevada's workweek is defined as Sunday through Saturday. All overtime must be pre-approved by a supervisor." }
+      ]
+    },
+    {
+      "heading": "Final Pay Requirements",
+      "level": 1,
+      "content": [
+        { "type": "bullet_list", "items": [
+          "If terminated involuntarily: final pay is due immediately or by the next regular payday, whichever is earlier (NRS 608.020).",
+          "If the employee resigns: final pay is due by the next regular payday or within 7 days, whichever is earlier (NRS 608.020).",
+          "Accrued vacation must be paid out at separation if the company policy provides for it (Contoso Retail's policy: yes, accrued PTO is paid out at separation).",
+          "Supervisors must notify HR immediately upon any team member separation to ensure timely final pay."
+        ]}
+      ]
+    },
+    {
+      "heading": "Sick Leave (Nevada)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Under Nevada's Mandatory Paid Leave law (NRS 608.0197), employers with 50 or more employees must provide paid leave. At Contoso Retail Nevada facilities:" },
+        { "type": "bullet_list", "items": [
+          "Accrual: 0.01923 hours of paid leave per hour worked — roughly 1 hour earned for every 52 minutes worked, which yields approximately 40 hours per year for a full-time employee. This is the same annual yield as California and Arizona (which both accrue at 1 hour per 30 hours worked), but Nevada's formula is expressed per-hour rather than per-30-hours.",
+          "Waiting period: Employees may use accrued leave beginning 90 days after date of hire.",
+          "Usage: Nevada's paid leave law is intentionally broad — employees may use leave for ANY reason whatsoever, with no requirement to state a reason. This is more permissive than California (illness/family care only) and Arizona (illness, family care, and domestic violence situations only).",
+          "No rollover cap: Unused leave rolls over year to year, but the employer may cap the total accrued balance at 40 hours.",
+          "No payout at termination: Nevada law does NOT require the mandatory paid leave balance to be paid out when an employee separates — the balance is forfeited. This is different from California, where accrued PTO/vacation must legally be paid out at termination.",
+          "Retaliation prohibited: Contoso Retail may not retaliate against an employee for using accrued paid leave."
+        ]}
+      ]
+    },
+    {
+      "heading": "Pay Period and Pay Stub Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada requires employers to pay employees at least semi-monthly (NRS 608.060). Contoso Retail Nevada team members are paid bi-weekly. Pay stubs must include:" },
+        { "type": "bullet_list", "items": [
+          "Name of the employee.",
+          "Pay period covered.",
+          "Gross wages earned.",
+          "Itemized deductions.",
+          "Net wages paid.",
+          "Hours worked (for hourly employees)."
+        ]}
+      ]
+    }
+  ]
+}

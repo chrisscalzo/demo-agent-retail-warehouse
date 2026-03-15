@@ -1,0 +1,87 @@
+{
+  "title": "Nevada Safety Regulations Overview",
+  "version": "1.0",
+  "category": "NV",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview: Nevada OSHA and the State Plan",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada operates its own OSHA program — Nevada OSHA — under a federally approved State Plan. Nevada OSHA is administered by the Division of Industrial Relations (DIR), part of the Nevada Department of Business and Industry. Like other State Plan states, Nevada OSHA must be 'at least as effective' as federal OSHA, and in some areas Nevada has adopted additional or modified standards." },
+        { "type": "paragraph", "text": "Contoso Retail's Nevada facilities (Las Vegas and Reno) must comply with Nevada OSHA standards for all workplace safety and health matters." }
+      ]
+    },
+    {
+      "heading": "Nevada OSHA Organizational Structure",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Agency", "Role", "Contact"], "rows": [
+          ["Nevada Division of Industrial Relations (DIR)", "Administers Nevada OSHA; sets safety standards", "dir.nv.gov"],
+          ["Nevada OSHA Enforcement Section", "Conducts inspections, investigates complaints, issues citations", "Las Vegas: (702) 486-9020; Carson City: (775) 684-7270"],
+          ["Nevada Safety Consultation Program", "Free, confidential safety consultation for employers — no citations issued", "(702) 486-9140"],
+          ["Nevada Occupational Disease Panel", "Reviews occupational disease claims", "Part of DIR"]
+        ]}
+      ]
+    },
+    {
+      "heading": "Key Nevada OSHA Standards for Warehouse Operations",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Standard", "Nevada Reference", "Notes"], "rows": [
+          ["Accident Prevention Program", "NAC 618.538", "Written accident prevention program required for all Nevada employers"],
+          ["Heat Stress", "Nevada guidance under NAC 618", "No specific standard but Nevada OSHA actively enforces heat safety; see NV Heat Illness Prevention doc"],
+          ["Powered Industrial Trucks", "NAC 618 (mirrors 29 CFR 1910.178)", "Operator training and certification required"],
+          ["Hazard Communication", "NAC 618 (mirrors 29 CFR 1910.1200)", "GHS SDS and labeling requirements; see NV Hazard Communication doc"],
+          ["Emergency Action Plan", "NAC 618", "Written EAP required; reviewed with employees annually"],
+          ["Personal Protective Equipment", "NAC 618", "Employer must conduct written PPE hazard assessment"]
+        ]}
+      ]
+    },
+    {
+      "heading": "Accident Prevention Program (APP)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada requires every employer to develop and implement an Accident Prevention Program (APP) under NAC 618.538. The APP is Nevada's equivalent to California's IIPP and must include:" },
+        { "type": "bullet_list", "items": [
+          "A general safety policy statement signed by the Warehouse Manager.",
+          "Identification of the person(s) responsible for safety.",
+          "Procedures for regular safety inspections of the workplace.",
+          "Safety meeting schedule (at least monthly).",
+          "Hazard identification and correction procedures.",
+          "Incident investigation procedures.",
+          "Employee safety training program.",
+          "Disciplinary procedures for safety violations."
+        ]},
+        { "type": "paragraph", "text": "The Warehouse Manager is the designated APP Administrator for each Nevada facility. The APP is reviewed annually and following any serious incident. Nevada OSHA may request the APP during any inspection." }
+      ]
+    },
+    {
+      "heading": "Nevada OSHA Reporting Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada OSHA reporting requirements largely align with federal OSHA timelines:" },
+        { "type": "table", "headers": ["Event", "Reporting Deadline", "Report To"], "rows": [
+          ["Fatality", "8 hours", "Nevada OSHA: (702) 486-9020 or (775) 684-7270"],
+          ["Inpatient hospitalization of any employee", "24 hours", "Nevada OSHA"],
+          ["Amputation", "24 hours", "Nevada OSHA"],
+          ["Loss of an eye", "24 hours", "Nevada OSHA"],
+          ["Annual injury/illness recordkeeping", "OSHA 300 log maintained; posted Feb 1–Apr 30", "Available to Nevada OSHA on request"]
+        ]}
+      ]
+    },
+    {
+      "heading": "Employee Rights Under Nevada OSHA",
+      "level": 1,
+      "content": [
+        { "type": "bullet_list", "items": [
+          "Right to request a Nevada OSHA inspection without employer knowledge.",
+          "Right to participate in an inspection by accompanying the inspector (walk-around rights).",
+          "Right to access injury/illness records and exposure monitoring results.",
+          "Right to file a complaint or report a safety violation without retaliation.",
+          "Nevada Revised Statutes (NRS) 618.445 prohibits employer retaliation against employees who exercise their Nevada OSHA rights."
+        ]}
+      ]
+    }
+  ]
+}

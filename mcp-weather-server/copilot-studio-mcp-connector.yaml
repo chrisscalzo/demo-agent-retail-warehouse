@@ -1,0 +1,51 @@
+swagger: '2.0'
+info:
+  title: Warehouse Weather MCP
+  description: Streamable MCP endpoint for current weather and daily forecast tools used by the Warehouse Assistant agent.
+  version: 1.0.0
+host: ca-warehouse-weather-mcp.victoriousmoss-972f32c5.eastus.azurecontainerapps.io
+basePath: /
+schemes:
+  - https
+securityDefinitions:
+  NoAuth:
+    type: apiKey
+    in: header
+    name: Unused
+security: []
+x-ms-connector-metadata:
+  - property: Website
+    value: https://ca-warehouse-weather-mcp.victoriousmoss-972f32c5.eastus.azurecontainerapps.io
+  - property: Privacy policy
+    value: https://privacy.microsoft.com
+  - property: Categories
+    value: AI;Data
+paths:
+  /mcp/:
+    post:
+      summary: Warehouse Weather MCP Server
+      description: Streamable MCP endpoint for Copilot Studio.
+      operationId: invoke
+      x-ms-agentic-protocol: mcp-streamable-1.0
+      consumes:
+        - application/json
+      produces:
+        - application/json
+        - text/event-stream
+      parameters:
+        - in: body
+          name: body
+          required: true
+          schema:
+            type: object
+      responses:
+        '200':
+          description: JSON-RPC response or SSE stream
+          schema:
+            type: object
+        '202':
+          description: Accepted (async SSE stream initiated)
+        '400':
+          description: Bad request – malformed JSON-RPC envelope
+        '500':
+          description: Internal server error

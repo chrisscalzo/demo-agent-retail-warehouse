@@ -1,0 +1,87 @@
+{
+  "title": "Workplace Code of Conduct",
+  "version": "1.0",
+  "category": "General",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Introduction",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail is committed to maintaining a workplace where every team member is treated with dignity, respect, and fairness. This Code of Conduct defines the professional and ethical standards expected of all employees, contractors, and temporary workers at Contoso Retail facilities. Adherence to these standards is a condition of employment." }
+      ]
+    },
+    {
+      "heading": "Professional Standards",
+      "level": 1,
+      "content": [
+        { "type": "bullet_list", "items": [
+          "Arrive on time and ready to work for every scheduled shift. Notify your supervisor as early as possible for any absence or tardiness.",
+          "Treat all colleagues, supervisors, visitors, and vendors with professionalism and respect.",
+          "Follow all instructions from supervisors unless doing so would violate the law or create an imminent safety hazard (in which case, report the concern immediately to the Warehouse Manager or HR).",
+          "Maintain the confidentiality of company information, including operational data, customer information, and personnel matters.",
+          "Use company resources (WMS terminals, tools, vehicles, break rooms) only for authorized purposes.",
+          "Wear your badge and required PPE at all times on the facility floor."
+        ]}
+      ]
+    },
+    {
+      "heading": "Harassment & Discrimination Policy",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail maintains a strict zero-tolerance policy for harassment, discrimination, and workplace bullying." },
+        { "type": "paragraph", "text": "Prohibited conduct includes but is not limited to:" },
+        { "type": "bullet_list", "items": [
+          "Verbal, physical, or visual harassment based on race, color, religion, sex, national origin, age, disability, sexual orientation, gender identity, or any other protected characteristic.",
+          "Sexual harassment, including unwanted physical contact, sexual comments, requests for sexual favors, and sharing of inappropriate images.",
+          "Bullying, intimidation, or threatening behavior — whether in person, via text, Teams, or any other communication channel.",
+          "Creating a hostile work environment through persistent offensive conduct."
+        ]},
+        { "type": "paragraph", "text": "Any team member who experiences or witnesses harassment or discrimination should report it immediately to their supervisor, HR, or via the anonymous Ethics Hotline (1-800-555-ETHICS). Reports are investigated promptly and confidentially. Retaliation against anyone who makes a good-faith report is strictly prohibited and itself a terminable offense." }
+      ]
+    },
+    {
+      "heading": "Substance-Free Workplace",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail is a substance-free workplace. The following are prohibited on company property, during work hours, or while operating company vehicles:" },
+        { "type": "bullet_list", "items": [
+          "Consumption, possession, or distribution of alcohol.",
+          "Use, possession, or distribution of illegal drugs.",
+          "Reporting to work under the influence of alcohol, illegal drugs, or any substance that impairs judgment or motor function.",
+          "Misuse of prescription or over-the-counter medications (i.e., taking more than prescribed, or taking another person's prescription)."
+        ]},
+        { "type": "paragraph", "text": "Team members who are taking prescription medications that may affect their ability to perform their duties safely must notify their supervisor and HR. Reasonable accommodation will be explored. Drug and alcohol testing may be conducted pre-employment, post-incident, with reasonable suspicion, or as part of random testing programs in accordance with applicable law." }
+      ]
+    },
+    {
+      "heading": "Social Media Policy",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Team members may use social media on personal devices during authorized break times only. The following standards apply to all social media activity related to Contoso Retail:" },
+        { "type": "bullet_list", "items": [
+          "Do not share confidential company information, including operational data, customer information, financial results, or personnel matters.",
+          "Do not post photos or videos of the warehouse interior, equipment, products, or colleagues without explicit written permission from the Warehouse Manager.",
+          "Do not make statements that could be construed as representing official Contoso Retail views without authorization.",
+          "Do not use social media to harass, bully, or defame colleagues, customers, or competitors.",
+          "Be aware that public social media posts may be viewed by current and prospective Contoso Retail stakeholders — your online conduct reflects on the company and your employment."
+        ]}
+      ]
+    },
+    {
+      "heading": "Disciplinary Process",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail uses a progressive discipline approach for conduct violations, though serious violations may result in immediate termination regardless of prior disciplinary history:" },
+        { "type": "table", "headers": ["Step", "Action", "Documentation"], "rows": [
+          ["Step 1", "Verbal Warning", "Documented in supervisor's coaching log"],
+          ["Step 2", "Written Warning", "Formal written notice signed by employee and supervisor"],
+          ["Step 3", "Final Written Warning / Suspension", "Written notice; may include unpaid suspension pending investigation"],
+          ["Step 4", "Termination", "HR review required; documentation package retained in employee file"]
+        ]},
+        { "type": "paragraph", "text": "Examples of zero-tolerance conduct resulting in immediate termination (Step 4): theft, violence or threats of violence, sexual harassment, falsification of safety records, operating equipment under the influence of alcohol or drugs, deliberate circumvention of safety systems." },
+        { "type": "paragraph", "text": "Team members have the right to a fair process. During any investigation, the employee may present their account of events. HR is available to all team members throughout the process." }
+      ]
+    }
+  ]
+}

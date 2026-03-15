@@ -1,0 +1,80 @@
+{
+  "title": "Arizona Safety Regulations Overview",
+  "version": "1.0",
+  "category": "AZ",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview: Federal OSHA in Arizona",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Unlike California and Nevada, Arizona does not operate a state OSHA plan for private-sector employers. Federal OSHA directly regulates private-sector workplaces in Arizona, including all Contoso Retail Arizona warehouse facilities (Phoenix and Tucson). The Arizona Industrial Commission (AIC) handles workers' compensation and some state labor law matters but does not administer occupational safety for private employers." },
+        { "type": "paragraph", "text": "Contoso Retail Arizona facilities must comply with all applicable federal OSHA standards (29 CFR 1910 for general industry). Federal OSHA inspections, complaint investigations, and enforcement apply directly to Arizona private employers." }
+      ]
+    },
+    {
+      "heading": "Applicable Federal OSHA Standards for Warehouse Operations",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Standard", "CFR Reference", "Key Requirements"], "rows": [
+          ["Hazard Communication (HazCom 2012/GHS)", "29 CFR 1910.1200", "Written HazCom program, SDS, GHS labeling, employee training"],
+          ["Powered Industrial Trucks", "29 CFR 1910.178", "Operator training, certification, pre-shift inspections"],
+          ["Personal Protective Equipment", "29 CFR 1910.132–138", "Written PPE hazard assessment, provision at no cost, training"],
+          ["Emergency Action Plan", "29 CFR 1910.38", "Written EAP for facilities with 10+ employees"],
+          ["Lockout/Tagout (LOTO)", "29 CFR 1910.147", "Written LOTO program, equipment-specific procedures, training"],
+          ["Walking/Working Surfaces", "29 CFR 1910.22–23", "Housekeeping, slip/trip prevention, floor load ratings"],
+          ["Heat Illness Prevention", "OSHA General Duty Clause / Heat NPRM", "No specific federal standard yet; see AZ Heat Illness Prevention doc"]
+        ]}
+      ]
+    },
+    {
+      "heading": "Arizona Industrial Commission (AIC) Role",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Although the AIC does not regulate occupational safety for private employers, it plays an important role in related areas that affect Contoso Retail Arizona operations:" },
+        { "type": "bullet_list", "items": [
+          "Workers' Compensation Administration: The AIC Industrial Commission oversees Arizona's workers' compensation system (see AZ Workers' Compensation document).",
+          "Labor Law Enforcement: The AIC enforces Arizona wage and hour laws including minimum wage, final pay, and other labor standards.",
+          "Mine Safety (not applicable): AIC Division of Occupational Safety & Health handles mining operations only — not warehouse.",
+          "Contact: Arizona Industrial Commission, 800 W. Washington Street, Phoenix, AZ 85007; (602) 542-4661."
+        ]}
+      ]
+    },
+    {
+      "heading": "Federal OSHA Reporting Requirements",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Event", "Deadline", "Report To"], "rows": [
+          ["Fatality", "8 hours", "Federal OSHA: 1-800-321-OSHA (6742) or local area office"],
+          ["Inpatient hospitalization", "24 hours", "Federal OSHA"],
+          ["Amputation", "24 hours", "Federal OSHA"],
+          ["Loss of an eye", "24 hours", "Federal OSHA"],
+          ["Injury/illness recordkeeping", "OSHA 300 log; posted Feb 1–Apr 30", "Available to OSHA on request"]
+        ]},
+        { "type": "paragraph", "text": "Federal OSHA Arizona Area Office (Phoenix): 230 N. First Ave., Suite 450, Phoenix, AZ 85003; (602) 514-7250. Tucson Area Office: (520) 622-3425. Report all qualifying events immediately — do not wait for management approval chain before calling." }
+      ]
+    },
+    {
+      "heading": "Employee Rights Under Federal OSHA",
+      "level": 1,
+      "content": [
+        { "type": "bullet_list", "items": [
+          "Right to file a confidential complaint with OSHA if you believe there is a serious hazard or OSHA violation.",
+          "Right to participate in OSHA inspections (walk-around rights).",
+          "Right to access your exposure records and the OSHA 300 injury log.",
+          "Right to refuse work that poses imminent danger of death or serious physical harm, when there is no time to eliminate the danger through normal means.",
+          "Right to be free from retaliation for exercising OSHA rights. Section 11(c) of the OSH Act prohibits employer retaliation."
+        ]},
+        { "type": "paragraph", "text": "To file a retaliation complaint, contact OSHA within 30 days of the retaliatory action at 1-800-321-OSHA." }
+      ]
+    },
+    {
+      "heading": "Voluntary Protection Programs (VPP)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail Arizona facilities aspire to participate in OSHA's Voluntary Protection Programs (VPP), which recognize employers that have implemented effective safety and health management systems. VPP Star status provides recognition, reduced OSHA inspection frequency, and signals our commitment to safety excellence." },
+        { "type": "paragraph", "text": "The Warehouse Manager and Safety Coordinator track our readiness metrics against VPP criteria. Achieving VPP Star status requires: a comprehensive safety management system, active employee involvement, worksite hazard analysis, hazard prevention and control, and safety training." }
+      ]
+    }
+  ]
+}

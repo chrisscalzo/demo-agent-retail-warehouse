@@ -1,0 +1,102 @@
+{
+  "title": "General Safety Handbook",
+  "version": "1.0",
+  "category": "General",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Introduction & OSHA Rights",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail is committed to providing a safe and healthful workplace for every team member. Safety is not optional — it is a core value and everyone's responsibility. This handbook outlines your OSHA rights, key safety responsibilities, and the fundamental safety practices that govern our operations." },
+        { "type": "paragraph", "text": "Under the Occupational Safety and Health Act (OSHA), every worker has the right to:" },
+        { "type": "bullet_list", "items": [
+          "Work in conditions that do not pose a risk of serious harm.",
+          "Receive information and training about workplace hazards, methods to prevent harm, and OSHA standards.",
+          "Review records of work-related injuries and illnesses.",
+          "File a confidential complaint with OSHA and request an inspection if you believe there is a serious hazard.",
+          "Exercise your rights under OSHA without retaliation or discrimination from your employer."
+        ]},
+        { "type": "paragraph", "text": "Contoso Retail strictly prohibits retaliation against any team member who reports a safety concern, files an OSHA complaint, or participates in an OSHA inspection." }
+      ]
+    },
+    {
+      "heading": "Safety Responsibilities",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Safety is a shared responsibility across all levels of the organization:" },
+        { "type": "table", "headers": ["Role", "Responsibilities"], "rows": [
+          ["Team Member", "Follow all safety rules; wear required PPE; report hazards and incidents immediately; participate in safety training; never bypass safeguards."],
+          ["Lead Team Member", "Conduct daily zone safety checks; reinforce PPE compliance; ensure new members follow safety procedures; escalate hazards promptly."],
+          ["Supervisor", "Conduct pre-shift safety walk; investigate all incidents and near-misses; ensure 100% training completion; enforce safety standards consistently."],
+          ["Safety Coordinator", "Maintain safety training calendar; conduct inspections; manage incident records; coordinate OSHA compliance."],
+          ["Warehouse Manager", "Allocate resources for safety programs; review incident trends; ensure regulatory compliance; champion safety culture."]
+        ]}
+      ]
+    },
+    {
+      "heading": "Hazard Identification",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Identifying hazards before they cause injury is the foundation of our safety program. Common warehouse hazards and how to address them:" },
+        { "type": "table", "headers": ["Hazard Type", "Examples", "Action"], "rows": [
+          ["Slip/Trip/Fall", "Spills, floor debris, uneven surfaces, open cord paths", "Clean immediately; place wet floor signs; report to supervisor"],
+          ["Struck-By", "Moving forklifts, falling objects, swinging dock doors", "Stay in pedestrian lanes; never walk under raised loads"],
+          ["Caught-In/Between", "Conveyor belts, pallet jacks, racking pinch points", "Keep hands clear; follow LOTO procedures for maintenance"],
+          ["Ergonomic", "Repetitive motion, heavy lifting, awkward postures", "Use team-lift for items >50 lbs; use mechanical assists"],
+          ["Chemical", "Cleaning agents, battery acid (forklift), aerosols", "Read SDS; wear appropriate PPE; store per labeling"],
+          ["Electrical", "Exposed wiring, overloaded outlets, wet equipment", "Do not use damaged equipment; report to maintenance"]
+        ]},
+        { "type": "paragraph", "text": "If you identify a hazard that you cannot immediately correct, place a warning cone or barrier, notify your supervisor, and log it using the Warehouse Assistant agent or the facility's hazard log binder." }
+      ]
+    },
+    {
+      "heading": "Lockout/Tagout (LOTO) Procedures",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Lockout/Tagout (LOTO) procedures protect workers from unexpected energization or startup of machinery during maintenance or servicing. Only trained and authorized employees may perform LOTO." },
+        { "type": "numbered_list", "items": [
+          "Notify all affected employees that equipment will be shut down.",
+          "Identify all energy sources (electrical, hydraulic, pneumatic, gravity).",
+          "Shut down the equipment using normal stopping procedures.",
+          "Isolate all energy sources using the designated lockout points.",
+          "Apply your personal lock and tag to each energy isolation point. Each worker uses their own lock.",
+          "Release or restrain all stored energy (bleed lines, block raised parts, discharge capacitors).",
+          "Verify the equipment is de-energized by attempting a normal startup — ensure no one is in the danger zone before testing.",
+          "After work is complete: ensure all workers are clear, remove locks and tags in reverse order, notify affected employees, and restore energy."
+        ]},
+        { "type": "paragraph", "text": "Never remove another worker's lock. If a lock cannot be accounted for, notify the supervisor immediately. Do not attempt to defeat a lockout." }
+      ]
+    },
+    {
+      "heading": "Housekeeping Standards",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "A clean warehouse is a safe warehouse. All team members are responsible for maintaining housekeeping standards in their assigned zones:" },
+        { "type": "bullet_list", "items": [
+          "Keep aisles clear of pallets, cardboard, shrink wrap, and all other obstructions at all times.",
+          "Break down and bale cardboard immediately after unpacking — do not allow accumulation on the floor.",
+          "Clean up spills immediately using the appropriate supplies from the spill station. For chemical spills, refer to the SDS and use PPE.",
+          "Return equipment (pallet jacks, carts, hand trucks) to designated storage areas after each use.",
+          "Dispose of trash in designated bins — never in aisles, at dock doors, or against racking.",
+          "Report damaged racking, flooring, or dock equipment to your supervisor — do not continue using damaged equipment.",
+          "End-of-shift sweep of your zone is required. Supervisor confirms completion during handoff."
+        ]}
+      ]
+    },
+    {
+      "heading": "Injury Reporting Overview",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "All injuries, illnesses, and near-misses must be reported immediately — no matter how minor they seem. Delayed reporting can affect your workers' compensation eligibility and our ability to prevent future incidents. See the Incident & Near-Miss Reporting Policy document for full details." },
+        { "type": "bullet_list", "items": [
+          "Report any injury to your supervisor immediately.",
+          "Seek first aid at the first aid station (Zone F). For serious injuries, call 911 first.",
+          "Complete an Incident Report form with your supervisor before end of shift.",
+          "Do not alter the scene of a serious incident until supervisors and safety personnel have assessed it.",
+          "Near-misses (close calls with no injury) must also be reported — they are leading indicators of future incidents."
+        ]}
+      ]
+    }
+  ]
+}

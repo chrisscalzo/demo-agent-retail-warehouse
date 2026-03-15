@@ -1,0 +1,94 @@
+{
+  "title": "New Employee Onboarding Guide",
+  "version": "1.0",
+  "category": "General",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Welcome to Contoso Retail",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Welcome to the Contoso Retail team! This onboarding guide will walk you through everything you need to know to get started successfully. From your first day checklist to your 90-day milestones, this document is your roadmap to becoming a confident, productive member of our warehouse team." }
+      ]
+    },
+    {
+      "heading": "Day 1 Checklist",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "On your first day, you should complete the following tasks with the help of your supervisor or onboarding buddy:" },
+        { "type": "numbered_list", "items": [
+          "Check in with HR at the office (Zone G) to complete final new-hire paperwork (I-9, direct deposit, tax forms).",
+          "Receive your Contoso Retail employee badge from the security desk. Badge must be worn visibly at all times on the facility floor.",
+          "Complete the 2-hour New Employee Safety Orientation with the Safety Coordinator. This is mandatory before any floor assignment.",
+          "Receive your PPE kit: hi-vis vest, safety glasses, gloves. Review the PPE Policy document.",
+          "Tour the facility with your buddy — identify all emergency exits, first aid stations, AED locations, and fire extinguishers.",
+          "Set up your WMS account login with help from your supervisor (IT Help Desk: ext. 5000).",
+          "Download the UKG Workforce app on your personal device and log in to view your schedule.",
+          "Attend the shift huddle at the start of your assigned shift.",
+          "Complete the Hazard Communication (HazCom) training module in the online learning system (Contoso Learn)."
+        ]}
+      ]
+    },
+    {
+      "heading": "Badge & System Access",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Your employee badge grants access to the facility and serves as your identifier on the floor. Important rules:" },
+        { "type": "bullet_list", "items": [
+          "Your badge must be visible (clipped to your vest or shirt at chest level) at all times while in the facility.",
+          "Never allow another person to use your badge to access the facility.",
+          "If your badge is lost or stolen, report it immediately to your supervisor and the security desk.",
+          "Badge replacement fee: $15 (deducted from next paycheck after the second replacement).",
+          "WMS access is role-based. Do not attempt to access areas of WMS outside your assigned role.",
+          "System passwords must not be shared. You are responsible for all transactions made under your login."
+        ]}
+      ]
+    },
+    {
+      "heading": "Required Training (First 30 Days)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "All new team members must complete the following training within their first 30 days. Your supervisor will track your completion status:" },
+        { "type": "table", "headers": ["Training Module", "Format", "Due"], "rows": [
+          ["New Employee Safety Orientation", "In-person (2 hrs)", "Day 1"],
+          ["Hazard Communication (HazCom)", "Online (Contoso Learn)", "Day 1"],
+          ["WMS Navigation Basics", "Online + hands-on", "Day 3"],
+          ["Forklift Awareness (non-operators)", "Online (30 min)", "Day 5"],
+          ["PPE Proper Use & Inspection", "In-person with Safety Coordinator", "Day 5"],
+          ["Emergency Evacuation Drill Participation", "In-person", "First drill after hire"],
+          ["Code of Conduct Acknowledgment", "Online (sign-off)", "Day 7"],
+          ["Incident & Near-Miss Reporting", "Online (45 min)", "Day 14"],
+          ["Equipment Safety Guidelines (Zone-specific)", "In-person with Lead", "Day 14"],
+          ["Lockout/Tagout (LOTO) Awareness", "Online (30 min)", "Day 30"]
+        ]}
+      ]
+    },
+    {
+      "heading": "30 / 60 / 90 Day Milestones",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Your supervisor will conduct milestone check-ins at 30, 60, and 90 days to review your progress, provide feedback, and confirm your standing with the company:" },
+        { "type": "table", "headers": ["Milestone", "Focus Areas", "Action if Concerns"], "rows": [
+          ["30 Days", "Training completion, safety awareness, attendance, basic task proficiency", "Corrective coaching plan; extended support from buddy"],
+          ["60 Days", "KPI performance (UPH, accuracy), teamwork, policy adherence", "Performance Improvement Plan (PIP) if metrics not progressing"],
+          ["90 Days", "Full productivity target, independence, consideration for Lead eligibility", "Termination review if KPIs and conduct standards not met"]
+        ]},
+        { "type": "paragraph", "text": "At 90 days, you transition from probationary status to regular employment. Benefits enrollment opens the first day of the month following your 90-day mark." }
+      ]
+    },
+    {
+      "heading": "Buddy Program",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Every new team member is paired with an experienced Buddy for their first 30 days. Your Buddy is your go-to resource for day-to-day questions, zone navigation, and WMS tips." },
+        { "type": "bullet_list", "items": [
+          "Buddies are experienced team members who have volunteered and been trained for the role.",
+          "Your Buddy will work alongside you during your first week.",
+          "Buddies receive a $50 bonus upon your successful completion of the 30-day milestone.",
+          "If you and your Buddy have a scheduling conflict, notify your supervisor to arrange alternate support.",
+          "Feedback on the Buddy program can be submitted via the Contoso Learn portal after 30 days."
+        ]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "title": "Shift Management Policy",
+  "version": "1.0",
+  "category": "General",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Purpose",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "This policy establishes the standards and procedures for managing shifts at Contoso Retail warehouse facilities. It covers scheduling, shift handoffs, overtime, and the call-out process to ensure consistent staffing and operational continuity." }
+      ]
+    },
+    {
+      "heading": "Shift Schedules",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail operates on a rotating 5-day schedule with two scheduled days off per week. Schedules are published two weeks in advance via the scheduling system (UKG Workforce):" },
+        { "type": "table", "headers": ["Shift", "Start Time", "End Time", "Paid Break", "Meal Break"], "rows": [
+          ["AM (First Shift)", "6:00 AM", "2:30 PM", "2 × 10 min", "30 min (unpaid)"],
+          ["PM (Second Shift)", "2:00 PM", "10:30 PM", "2 × 10 min", "30 min (unpaid)"],
+          ["Night (Third Shift)", "10:00 PM", "6:30 AM", "2 × 10 min", "30 min (unpaid)"]
+        ]},
+        { "type": "paragraph", "text": "Schedule changes requested by team members must be submitted through UKG Workforce at least 72 hours in advance and require supervisor approval. Shift swaps between team members are permitted with supervisory approval and must not result in overtime without prior authorization." }
+      ]
+    },
+    {
+      "heading": "Shift Handoff Procedures",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "A structured handoff ensures incoming shifts have the context needed to continue operations safely and efficiently. The following handoff procedure is mandatory:" },
+        { "type": "numbered_list", "items": [
+          "Outgoing supervisor completes the Shift Summary Report in WMS at least 20 minutes before shift end.",
+          "Report must include: open task counts, equipment issues, safety incidents or near-misses, staffing gaps, and priority carryover items.",
+          "Outgoing and incoming supervisors conduct a 10-minute verbal walkthrough of active dock doors and problem areas.",
+          "Leads complete zone-level handoff notes on the shared Teams channel (#shift-handoff).",
+          "Incoming supervisor acknowledges receipt of the report in WMS before the outgoing supervisor clocks out."
+        ]},
+        { "type": "paragraph", "text": "Failure to complete a proper handoff must be escalated to the Warehouse Manager. Repeated non-compliance will result in corrective action." }
+      ]
+    },
+    {
+      "heading": "Overtime Policy",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Overtime (OT) is sometimes necessary to meet operational demands. The following rules apply to all hourly team members:" },
+        { "type": "bullet_list", "items": [
+          "All overtime must be pre-approved by a supervisor or manager before hours are worked.",
+          "Voluntary overtime opportunities are posted in UKG Workforce and filled on a first-come, first-served basis, prioritizing those with fewest OT hours in the current pay period.",
+          "Mandatory overtime may be assigned during peak periods. See the Holiday & Peak Season Procedures document for specific peak-period OT rules.",
+          "Overtime pay rates comply with all applicable state and federal wage laws. See your state-specific labor law document for state-specific OT thresholds.",
+          "Team members may not work more than 12 consecutive hours without written manager authorization and are not permitted to exceed 60 hours per week without Regional Director approval."
+        ]}
+      ]
+    },
+    {
+      "heading": "Call-Out Process",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "When a team member is unable to report for a scheduled shift, the following process must be followed:" },
+        { "type": "numbered_list", "items": [
+          "Notify your supervisor directly by phone (not text) at least 2 hours before your scheduled shift start time.",
+          "If the supervisor does not answer, leave a voicemail AND call the facility's main scheduling line.",
+          "Log the absence in UKG Workforce under 'Unplanned Absence' with a reason code.",
+          "For medical absences of 3 or more consecutive days, contact HR to initiate FMLA/LOA paperwork.",
+          "Two no-call/no-shows in a rolling 6-month period will result in disciplinary action up to and including termination."
+        ]},
+        { "type": "paragraph", "text": "Supervisors receiving call-outs must update the shift staffing plan, notify the incoming supervisor during handoff, and attempt to backfill from the voluntary OT list before mandating a team member." }
+      ]
+    },
+    {
+      "heading": "Scheduling System (UKG Workforce)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "All scheduling activities are managed in UKG Workforce. Team members can access UKG via the web portal or mobile app:" },
+        { "type": "bullet_list", "items": [
+          "View your schedule up to 4 weeks in advance.",
+          "Request time off (must be submitted at least 1 week in advance for single days; 2 weeks for blocks of 3+ days).",
+          "Pick up open shifts posted by supervisors.",
+          "Swap shifts with eligible colleagues (requires supervisor approval).",
+          "View pay stubs and time records."
+        ]},
+        { "type": "paragraph", "text": "For UKG access issues, contact your supervisor or the IT Help Desk at extension 5000." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "title": "Equipment Safety Guidelines",
+  "version": "1.0",
+  "category": "General",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Warehouse equipment is essential to our operations, but it also presents significant safety risks when used improperly. This guide covers the safe operation of forklifts, pallet jacks, conveyor systems, dock equipment, and other common warehouse machinery. Only trained and authorized personnel may operate powered industrial trucks and motorized equipment." }
+      ]
+    },
+    {
+      "heading": "Forklift Safety & Certification",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Forklifts (powered industrial trucks) are among the highest-risk equipment in the warehouse. OSHA 29 CFR 1910.178 requires formal training and evaluation for all operators." },
+        { "type": "bullet_list", "items": [
+          "Only team members with a current, valid Contoso Retail forklift certification card may operate forklifts.",
+          "Certification includes: formal classroom instruction, equipment-specific training, and an observed practical evaluation.",
+          "Recertification is required every 3 years, after any observed unsafe operation, after an accident or near-miss, after a change in conditions or equipment type.",
+          "Certification is equipment-specific: a sit-down counterbalanced certification does not authorize reach truck or order picker operation.",
+          "Forklifts must not be used to transport personnel unless a specifically designed personnel platform with proper fall protection is in use and approved by the supervisor.",
+          "Speed limit in the facility: 5 mph (walking speed). Slow to pedestrian speed at intersections and dock door thresholds."
+        ]},
+        { "type": "paragraph", "text": "Pre-Operation Inspection (required before EVERY shift):", "label": "bold" },
+        { "type": "numbered_list", "items": [
+          "Check for fluid leaks (hydraulic, engine oil, battery fluid).",
+          "Inspect tires for damage, wear, and proper inflation.",
+          "Test horn, lights, backup alarm, and mirrors.",
+          "Inspect forks for cracks, bends, and proper heel locking.",
+          "Check seatbelt function and overhead guard integrity.",
+          "Log any defects in the forklift inspection log. Remove from service if defect poses a safety risk."
+        ]}
+      ]
+    },
+    {
+      "heading": "Pallet Jack Operation",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Manual and electric pallet jacks are the most commonly used equipment on the floor. They are safer than forklifts but still require proper technique:" },
+        { "type": "bullet_list", "items": [
+          "Inspect pallet jack before each use: check for hydraulic leaks, damaged forks, functioning brakes (electric), and proper wheel condition.",
+          "Never exceed the rated capacity (typically 5,000 lbs for manual; varies for electric — see equipment placard).",
+          "Always push rather than pull a loaded pallet jack to maintain visibility and control.",
+          "When traveling on inclines or ramps, load should be uphill from the operator.",
+          "Keep the load low (4–6 inches off the ground) while traveling.",
+          "Sound the horn and slow down at intersections, doorways, and pedestrian crossings.",
+          "Do not ride on manual pallet jacks. Electric ride-on models require an authorization check from your supervisor."
+        ]}
+      ]
+    },
+    {
+      "heading": "Conveyor Belt Safety",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Conveyor systems in the pick/pack and receiving areas must be operated with care:" },
+        { "type": "bullet_list", "items": [
+          "Never reach into a moving conveyor. Stop the belt at the nearest E-stop before clearing jams.",
+          "Do not place hands, clothing, or tools near pinch points (rollers, drive belts, take-up pulleys).",
+          "All conveyor maintenance must follow Lockout/Tagout (LOTO) procedures.",
+          "Report jams, belt misalignment, or unusual noise to maintenance immediately — do not attempt to repair conveyor belts without authorization.",
+          "Keep the area around conveyor systems clear of boxes, shrink wrap, and personal items.",
+          "Never walk on or climb over conveyor belts."
+        ]}
+      ]
+    },
+    {
+      "heading": "Dock Safety",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Loading dock areas are high-hazard zones where forklifts, trucks, and pedestrians interact. Follow all dock safety procedures strictly:" },
+        { "type": "bullet_list", "items": [
+          "Wheel chocks must be placed on the trailer tires before any vehicle is loaded or unloaded. Confirm chocks are in place before operating dock leveler.",
+          "Confirm dock leveler engagement before driving onto the trailer. Check trailer floor condition — look for soft spots, holes, or insufficient support.",
+          "Dock door lights: Red = trailer not secured / do not enter. Green = trailer secured / clear to load-unload. Never override the light system.",
+          "Communicate with the truck driver before releasing trailer restraint. Ensure the driver is aware loading/unloading is complete.",
+          "Only authorized personnel in the dock area during loading/unloading. Establish and enforce a pedestrian exclusion zone when forklifts are active.",
+          "Be aware of the 'trailer creep' hazard — trailers can shift forward during unloading. Use trailer restraint systems whenever available."
+        ]}
+      ]
+    },
+    {
+      "heading": "Pre-Operation Checklists",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Pre-operation checklists for all major equipment are located in the equipment binder at Zone A (supervisor station) and in the WMS equipment module. Supervisors are responsible for ensuring completed checklists are filed daily. Equipment with documented defects must be tagged Out of Service and not used until repaired." }
+      ]
+    }
+  ]
+}

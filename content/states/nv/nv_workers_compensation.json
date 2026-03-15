@@ -1,0 +1,82 @@
+{
+  "title": "Nevada Workers' Compensation",
+  "version": "1.0",
+  "category": "NV",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada's workers' compensation (WC) system is administered through the Division of Industrial Relations (DIR) under the Department of Business and Industry. Contoso Retail's Nevada facilities carry workers' compensation insurance through approved private carriers and/or the State Industrial Insurance System (SIIS). All Nevada employers with one or more employees are required by law to carry WC coverage." }
+      ]
+    },
+    {
+      "heading": "Reporting a Work Injury: 7-Day Reporting Rule",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada law requires injured workers to report their work-related injury to their employer within 7 days of the injury (NRS 616C.015). Failure to report within this window may jeopardize the worker's eligibility for WC benefits. Contoso Retail strongly encourages immediate reporting — do not wait for symptoms to worsen or assume an injury is minor." },
+        { "type": "table", "headers": ["Step", "Action", "Timeline"], "rows": [
+          ["Employee reports to supervisor", "Verbal notification of injury or illness", "Immediately upon occurrence"],
+          ["Employee reporting deadline", "Employee must report to employer", "Within 7 days of injury (NRS 616C.015)"],
+          ["Employer provides C-1 Form", "Supervisor provides C-1 (Notice of Injury) to injured worker", "Promptly upon receiving notice"],
+          ["Employer files C-3 Form", "Employer submits Report of Industrial Injury to insurer", "Within 6 days of receiving the C-1"],
+          ["Medical authorization", "Employer authorizes initial medical treatment", "Promptly — do not delay necessary medical care"]
+        ]}
+      ]
+    },
+    {
+      "heading": "Panel of Physicians",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Under Nevada's workers' compensation system, the employer (Contoso Retail) directs the initial medical care for a work-related injury through an approved panel of physicians (PPO network). Key rules:" },
+        { "type": "bullet_list", "items": [
+          "Contoso Retail maintains an approved physician panel for each Nevada facility. The panel list is posted on the safety bulletin board and provided to each new hire at orientation.",
+          "The injured worker must select their treating physician from the employer's panel for initial treatment.",
+          "After being treated by a panel physician, the employee may request a change of physician within the treating specialty once without insurer approval.",
+          "Emergency treatment: For life-threatening or serious injuries, seek emergency care at any facility. The panel physician requirement applies to ongoing non-emergency treatment.",
+          "The treating physician (authorized treating physician / ATP) controls the medical direction of the claim. Unauthorized providers may not be covered."
+        ]}
+      ]
+    },
+    {
+      "heading": "Benefit Types",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Benefit", "Description", "Nevada Details"], "rows": [
+          ["Medical Benefits", "All reasonable and necessary treatment for the work injury", "No deductibles; must use authorized provider network"],
+          ["Temporary Total Disability (TTD)", "Wage replacement while totally unable to work", "66 2/3% of pre-injury average monthly wage; begins on day 5 of disability; day 1 if hospitalized 5+ days"],
+          ["Temporary Partial Disability (TPD)", "Wage replacement during modified duty when earning less than pre-injury", "66 2/3% of the difference between pre-injury and current earnings"],
+          ["Permanent Partial Disability (PPD)", "Lump sum or scheduled payments for permanent impairment", "Based on % impairment rating per AMA Guides"],
+          ["Permanent Total Disability (PTD)", "Monthly payments for total permanent inability to work", "66 2/3% of pre-injury wage, adjusted annually"],
+          ["Vocational Rehabilitation", "Retraining assistance if unable to return to same occupation", "Up to program limits determined by DIR"],
+          ["Death Benefits", "Benefits for qualifying dependents", "Per Nevada rate schedule; burial expenses covered"]
+        ]}
+      ]
+    },
+    {
+      "heading": "Annual Training Mandate",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada requires employers to provide annual workers' compensation training to all employees (NRS 616B.121). Contoso Retail Nevada's annual WC training covers:" },
+        { "type": "bullet_list", "items": [
+          "How to report a work injury (verbal report and C-1 form process).",
+          "What benefits are available under Nevada WC.",
+          "The 7-day employee reporting deadline.",
+          "How to access the panel of physicians.",
+          "Anti-retaliation protections.",
+          "The role of the insurer and how to communicate with the claims adjuster."
+        ]},
+        { "type": "paragraph", "text": "Training is completed annually through Contoso Learn. Completion is tracked by the Safety Coordinator. Nevada may request training records during an inspection." }
+      ]
+    },
+    {
+      "heading": "Anti-Discrimination & Retaliation",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada law (NRS 616C.021) prohibits employers from retaliating against employees for filing a workers' compensation claim, testifying in a WC hearing, or exercising any WC rights. Prohibited actions include discharge, demotion, reduction in pay, or any other adverse employment action connected to the WC claim." },
+        { "type": "paragraph", "text": "Violations can result in reinstatement, back pay, and civil penalties. Report any suspected retaliation immediately to HR or the Nevada Labor Commissioner." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "title": "Arizona Hazard Communication",
+  "version": "1.0",
+  "category": "AZ",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview: Federal HazCom 2012 / GHS in Arizona",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Because Arizona is a federal OSHA state (no state plan for private employers), Contoso Retail Arizona facilities follow the federal Hazard Communication standard (29 CFR 1910.1200), commonly called HazCom 2012 or the GHS standard. This standard requires a written Hazard Communication Program, Safety Data Sheets (SDS), GHS-compliant container labeling, and employee training." },
+        { "type": "paragraph", "text": "Unlike California, Arizona does not have Proposition 65 or additional state-specific warning requirements for private employers. The federal HazCom standard is the governing framework for Arizona chemical safety." }
+      ]
+    },
+    {
+      "heading": "Written Hazard Communication Program",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail maintains a written Hazard Communication Program for each Arizona facility as required by 29 CFR 1910.1200(e). The written program must be available to employees and OSHA inspectors at any time and includes:" },
+        { "type": "bullet_list", "items": [
+          "A list of all hazardous chemicals used or stored in the facility (the chemical inventory).",
+          "How the facility ensures containers are labeled.",
+          "How the facility maintains and provides access to SDS.",
+          "How the facility trains employees on chemical hazards.",
+          "Procedures for non-routine tasks involving unusual chemical hazards.",
+          "Procedures for contractors who bring hazardous chemicals onto the premises."
+        ]},
+        { "type": "paragraph", "text": "The Safety Coordinator maintains the written HazCom program and reviews it annually. The program is stored in the safety binder (Zone A and Zone F) and available on the Safety Coordinator's shared drive." }
+      ]
+    },
+    {
+      "heading": "Safety Data Sheets (SDS)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "SDS must be maintained for all hazardous chemicals in the facility and be readily accessible to employees during all work shifts. Federal HazCom requires the 16-section GHS-format SDS:" },
+        { "type": "table", "headers": ["SDS Section", "Information Provided"], "rows": [
+          ["Section 1", "Product identifier; manufacturer contact; emergency phone"],
+          ["Section 2", "Hazard classification; GHS label elements"],
+          ["Section 3", "Chemical composition / ingredients"],
+          ["Section 4", "First aid measures"],
+          ["Section 5", "Firefighting measures"],
+          ["Section 6", "Accidental release / spill response measures"],
+          ["Section 7", "Handling and storage requirements"],
+          ["Section 8", "Exposure limits; PPE requirements"],
+          ["Section 9", "Physical and chemical properties"],
+          ["Section 10–16", "Stability, reactivity, toxicology, regulatory, disposal, transport info"]
+        ]},
+        { "type": "paragraph", "text": "SDS for all facility chemicals are accessible via: Physical binder (Zone A, Zone F) and digital SDS library in WMS ('Safety' → 'SDS Library'). Any chemical without an SDS must not be used until an SDS is obtained and filed — contact the Safety Coordinator." }
+      ]
+    },
+    {
+      "heading": "Employee Training (Within 30 Days of Hire)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Federal HazCom requires that employees receive training before working with or in an area containing hazardous chemicals. Contoso Retail Arizona policy: HazCom training is completed within 30 days of hire, and refresher training is conducted annually." },
+        { "type": "paragraph", "text": "Training must cover:" },
+        { "type": "numbered_list", "items": [
+          "The requirements of the federal HazCom standard (29 CFR 1910.1200).",
+          "Any operations in the employee's work area where hazardous chemicals are present.",
+          "Where the SDS are located and how to use them.",
+          "How to detect the presence or release of hazardous chemicals (odor, color change, label warnings).",
+          "The physical and health hazards of the chemicals in the work area.",
+          "Measures employees can take to protect themselves: PPE, work practices, emergency procedures.",
+          "The details of the Contoso Retail HazCom program including how to read labels and SDS."
+        ]},
+        { "type": "paragraph", "text": "Initial training is completed in Contoso Learn within 30 days. Annual refresher is scheduled by the Safety Coordinator. OSHA may request training completion records during any inspection — maintain records for a minimum of 5 years." }
+      ]
+    },
+    {
+      "heading": "GHS Labeling Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "All containers of hazardous chemicals must display GHS-compliant labels. For Contoso Retail Arizona facilities:" },
+        { "type": "bullet_list", "items": [
+          "Original manufacturer labels must not be removed or defaced.",
+          "Secondary containers (spray bottles, smaller working containers) must be labeled with at minimum the product identifier and hazard warnings.",
+          "Labels must be legible and in English. Additional languages may be provided but English is required.",
+          "Deteriorated or missing labels must be replaced before the chemical is used.",
+          "Pipes and process equipment containing hazardous materials must be identified with appropriate signs or color-coding."
+        ]},
+        { "type": "paragraph", "text": "GHS Pictogram Reminder — the nine GHS pictograms and their meanings are posted at each chemical storage location and in the SDS binder cover page." }
+      ]
+    },
+    {
+      "heading": "Contractor Chemical Communication",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "When outside contractors bring hazardous chemicals onto Contoso Retail Arizona premises, the following requirements apply:" },
+        { "type": "bullet_list", "items": [
+          "Contractors must provide SDS for any hazardous chemicals they bring to Contoso Retail before work begins.",
+          "Contoso Retail shares the facility's hazardous chemical inventory and SDS with contractors upon request.",
+          "The Warehouse Manager or Safety Coordinator designee coordinates the pre-work chemical hazard information exchange.",
+          "Contractors must follow Contoso Retail's chemical labeling and storage rules while on premises."
+        ]}
+      ]
+    }
+  ]
+}

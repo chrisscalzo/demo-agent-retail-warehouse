@@ -1,0 +1,83 @@
+{
+  "title": "California Hazard Communication",
+  "version": "1.0",
+  "category": "CA",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview: Cal/OSHA HazCom and Proposition 65",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California's Hazard Communication standard (8 CCR §5194) aligns with the federal GHS-based HazCom 2012 standard but includes additional requirements specific to California. Additionally, California's Proposition 65 (Safe Drinking Water and Toxic Enforcement Act of 1986) imposes warning requirements for chemicals that cause cancer, birth defects, or reproductive harm — requirements that go well beyond federal HazCom." },
+        { "type": "paragraph", "text": "Contoso Retail California facilities comply with both Cal/OSHA §5194 and Proposition 65 as applicable to warehouse chemicals and materials." }
+      ]
+    },
+    {
+      "heading": "Safety Data Sheets (SDS)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Safety Data Sheets (SDS) are required for all hazardous chemicals used or stored at Contoso Retail California facilities, including cleaning products, battery fluids, lubricants, and aerosols. California requirements:" },
+        { "type": "bullet_list", "items": [
+          "SDS must be readily accessible to all employees during their work shift — both in print and digitally.",
+          "The master SDS binder is located at Zone A (supervisor station) and Zone F (break room). The digital SDS library is accessible in WMS under 'Safety' → 'SDS Library.'",
+          "Cal/OSHA may inspect SDS records at any time. SDS must be current (within 5 years) or most recently available.",
+          "New chemicals must have an SDS before they are brought onto the facility floor — the Safety Coordinator must approve and file the SDS before first use.",
+          "California requires SDS to be provided in a language the employee can understand if they request it (bilingual labeling is common in California facilities)."
+        ]}
+      ]
+    },
+    {
+      "heading": "Chemical Labeling Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "All containers of hazardous chemicals must be labeled in accordance with GHS/HazCom 2012 requirements. Labels must include:" },
+        { "type": "bullet_list", "items": [
+          "Product identifier (name or trade name matching the SDS).",
+          "Signal word (DANGER or WARNING).",
+          "Hazard statements describing the nature and degree of hazard.",
+          "Precautionary statements for safe handling, storage, PPE, and first aid.",
+          "GHS pictograms.",
+          "Manufacturer/supplier name and contact information."
+        ]},
+        { "type": "paragraph", "text": "California-specific: Bilingual labeling is common and strongly encouraged for California facilities with non-English-speaking workers. The Safety Coordinator maintains Spanish-language labels for common chemicals. Never remove or deface a chemical label. If a label is damaged, re-label immediately using the SDS or notify the supervisor." }
+      ]
+    },
+    {
+      "heading": "Proposition 65 Warning Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California Proposition 65 requires businesses to provide clear and reasonable warnings before knowingly exposing anyone to chemicals on the Prop 65 list (currently 900+ chemicals, including lead, diesel exhaust, and certain cleaning solvents)." },
+        { "type": "bullet_list", "items": [
+          "Warnings are required on products, at entrances to areas with known Prop 65 exposures, and on websites for online commerce.",
+          "At Contoso Retail California warehouses, Prop 65 warnings are posted at facility entrances and in forklift battery charging areas (due to sulfuric acid and hydrogen gas).",
+          "Diesel-powered equipment generates diesel particulate matter (a Prop 65 chemical). California facilities using diesel forklifts or yard trucks must post appropriate warnings.",
+          "The Safety Coordinator reviews the Prop 65 list annually for any new additions relevant to facility chemicals.",
+          "Prop 65 violations can result in civil penalties of up to $2,500 per day per violation."
+        ]}
+      ]
+    },
+    {
+      "heading": "Employee Training Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Cal/OSHA §5194 requires HazCom training for all employees who may be exposed to hazardous chemicals. Training must be provided:" },
+        { "type": "bullet_list", "items": [
+          "At the time of initial assignment.",
+          "Whenever a new chemical hazard is introduced into the work area.",
+          "Annual refresher training is also required at Contoso Retail California facilities as part of the IIPP."
+        ]},
+        { "type": "paragraph", "text": "Training content must include:" },
+        { "type": "numbered_list", "items": [
+          "The requirements of the HazCom standard.",
+          "Operations in their work area where hazardous chemicals are present.",
+          "Location and availability of the SDS for each hazardous chemical.",
+          "Methods to detect the presence or release of hazardous chemicals.",
+          "Physical and health hazards of the chemicals in the work area.",
+          "Protective measures: appropriate PPE, work practices, and emergency procedures.",
+          "Details of the Contoso Retail HazCom program and how to read labels and SDS."
+        ]},
+        { "type": "paragraph", "text": "Training is documented in Contoso Learn and the Safety Coordinator maintains completion records. Cal/OSHA may request training records during an inspection." }
+      ]
+    }
+  ]
+}

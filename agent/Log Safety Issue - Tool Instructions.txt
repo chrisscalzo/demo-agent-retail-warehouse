@@ -1,0 +1,11 @@
+Use this tool to submit a new safety issue, near-miss, equipment problem, or safety concern to the Contoso Retail Safety Issue Log.
+
+Before calling this tool, collect all of the following through conversation and confirm them with the user:
+
+- ReporterName: Full name of the person reporting the issue
+- WarehouseLocation: Must be one of — CA-LAX-001 Los Angeles, CA-SFO-002 Fresno, NV-LV-001 Las Vegas, NV-RNO-002 Reno, AZ-PHX-001 Phoenix, AZ-TUC-002 Tucson
+- IssueType: Must be one of — Equipment, Environmental, Process, Near-Miss, Other
+- Description: A clear description of what was observed or what the concern is
+- Severity: Must be one of — Low, Medium, High, Critical
+
+Do not call this tool until all five values have been collected and confirmed by the user. After successful submission, inform the user the issue has been logged and a supervisor will follow up.

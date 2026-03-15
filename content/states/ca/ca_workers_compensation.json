@@ -1,0 +1,84 @@
+{
+  "title": "California Workers' Compensation",
+  "version": "1.0",
+  "category": "CA",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California's workers' compensation (WC) system provides benefits to employees who suffer work-related injuries or illnesses. In California, workers' compensation is administered through the Department of Industrial Relations (DIR). Contoso Retail maintains WC coverage through the State Compensation Insurance Fund (State Fund) and/or approved private carriers for California facilities." },
+        { "type": "paragraph", "text": "Workers' compensation benefits in California include medical care, temporary disability payments, permanent disability compensation, supplemental job displacement benefits, and death benefits for qualifying dependents." }
+      ]
+    },
+    {
+      "heading": "Reporting a Work Injury: 1-Day Reporting Rule",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California has one of the shortest employer reporting deadlines in the nation. The following applies to all Contoso Retail California facilities:" },
+        { "type": "table", "headers": ["Step", "Action", "Timeline"], "rows": [
+          ["Employee reports injury to supervisor", "Verbal notification to supervisor", "Immediately upon occurrence"],
+          ["Employer provides DWC-1 Claim Form", "Supervisor provides DWC-1 form to injured worker", "Within 1 working day of knowledge of injury"],
+          ["Employee completes DWC-1", "Employee fills out worker section and returns to employer", "Employee retains a copy"],
+          ["Employer files First Report of Injury", "Supervisor/HR files with WC insurance carrier", "Within 5 days of knowledge of injury (within 5 days of DWC-1 return)"],
+          ["Employer authorizes initial medical treatment", "Medical treatment must be authorized", "Within 1 working day of claim — up to $10,000 in treatment must be authorized while claim is investigated"]
+        ]},
+        { "type": "paragraph", "text": "Failure to provide the DWC-1 form within 1 working day is a violation subject to civil penalty under California Labor Code §5401. Supervisors are trained on this requirement and must never delay providing the form." }
+      ]
+    },
+    {
+      "heading": "Medical Provider Network (MPN)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Under California law, Contoso Retail has established a Medical Provider Network (MPN) — a group of physicians and medical facilities authorized to treat work-related injuries. Important California-specific rules:" },
+        { "type": "bullet_list", "items": [
+          "Contoso Retail employees in California may choose their treating physician from within the MPN after the initial emergency treatment.",
+          "If the employee has pre-designated their personal physician in writing before the injury occurred, they may treat with their own doctor from day 1.",
+          "MPN information (list of providers, geographic coverage, how to access) is provided to all employees at hire and is posted on the safety board.",
+          "If the employee is unhappy with their MPN physician, they have the right to request a second opinion or change doctors within the MPN."
+        ]}
+      ]
+    },
+    {
+      "heading": "Benefit Types",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Benefit", "Description", "California Details"], "rows": [
+          ["Medical Benefits", "All reasonable and necessary medical care for the injury", "Authorized through the MPN; no deductibles or co-pays for work injuries"],
+          ["Temporary Disability (TD)", "Wage replacement while unable to work due to injury", "66 2/3% of pre-injury average weekly wage; maximum set annually by DIR; begins on day 4 of disability (or day 1 if hospitalized)"],
+          ["Permanent Disability (PD)", "Compensation for lasting impairment", "Amount based on impairment rating by physician using AMA Guides; biweekly payments"],
+          ["Supplemental Job Displacement Benefit", "Voucher for retraining if unable to return to usual work", "Up to $6,000 voucher for approved retraining or education"],
+          ["Death Benefits", "Support for dependents if worker dies from injury", "Up to $320,000 to qualified dependents; plus burial expenses up to $10,000"]
+        ]}
+      ]
+    },
+    {
+      "heading": "Return-to-Work Program",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail California facilities maintain an active Return-to-Work (RTW) program to support injured workers in returning to meaningful employment as quickly as medically appropriate:" },
+        { "type": "bullet_list", "items": [
+          "The HR team contacts the injured worker within 3 days of the injury to discuss RTW options.",
+          "Modified duty (light duty) positions may be available. The HR team and supervisor identify available accommodations consistent with physician work restrictions.",
+          "If modified duty is offered in good faith and the employee refuses without medical justification, temporary disability benefits may be affected.",
+          "Contoso Retail does not use RTW programs to pressure employees back to full duty before medical clearance.",
+          "The supervisor tracks RTW status in the Workers' Compensation tracking system and reports updates to HR weekly."
+        ]}
+      ]
+    },
+    {
+      "heading": "Anti-Discrimination & Retaliation",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California Labor Code §132a prohibits employers from discriminating against employees for filing a workers' compensation claim or for receiving workers' compensation benefits. This includes:" },
+        { "type": "bullet_list", "items": [
+          "Terminating, demoting, or reassigning an employee because they filed a WC claim.",
+          "Refusing to rehire a qualified applicant because they previously filed a WC claim.",
+          "Retaliating against an employee for testifying in another worker's WC proceeding."
+        ]},
+        { "type": "paragraph", "text": "Violations of §132a carry increased WC benefits and a potential $10,000 penalty. Any suspected retaliation must be reported immediately to HR or the DIR." }
+      ]
+    }
+  ]
+}

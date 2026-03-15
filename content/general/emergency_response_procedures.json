@@ -1,0 +1,92 @@
+{
+  "title": "Emergency Response Procedures",
+  "version": "1.0",
+  "category": "General",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "This document describes the emergency response procedures for Contoso Retail warehouse facilities. All team members must familiarize themselves with these procedures during onboarding and during the annual emergency preparedness training. Drills are conducted at least twice per year. In any emergency, prioritize personal safety above all else — no task or shipment is worth risking your life." }
+      ]
+    },
+    {
+      "heading": "Emergency Contacts",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Contact", "Number / Location"], "rows": [
+          ["Emergency Services (Fire / Police / EMS)", "911"],
+          ["Facility Security Desk", "Ext. 5001 / Posted at all dock doors"],
+          ["Warehouse Manager (On-Call)", "Posted on safety bulletin board monthly"],
+          ["Poison Control", "1-800-222-1222"],
+          ["OSHA Hotline (to report imminent danger)", "1-800-321-OSHA (6742)"],
+          ["Nearest Hospital (Facility-Specific)", "Posted at first aid station and near all dock doors"]
+        ]},
+        { "type": "paragraph", "text": "Emergency contact cards are laminated and posted at every dock door, the break room entrance, and at the supervisor station. Take a photo on your personal phone for quick reference." }
+      ]
+    },
+    {
+      "heading": "Fire Evacuation",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "In the event of a fire alarm or confirmed fire:" },
+        { "type": "numbered_list", "items": [
+          "Stop all work immediately. Do not attempt to gather personal belongings.",
+          "Alert others in your immediate area using verbal warning: 'FIRE — EVACUATE NOW.'",
+          "Exit through the nearest emergency exit (marked with illuminated green exit signs). Do not use the main office entrance.",
+          "Do not use elevators (where applicable).",
+          "Proceed to your zone's designated assembly point outside the facility (posted on the facility map at each zone entry).",
+          "Report to your supervisor at the assembly point for headcount. Do not leave the assembly area until released by the supervisor or fire department.",
+          "If you discover a fire, pull the nearest fire alarm pull station before evacuating.",
+          "Use a fire extinguisher ONLY if: you are trained, the fire is small and contained, you have a clear escape path, and you have already pulled the alarm."
+        ]},
+        { "type": "paragraph", "text": "Assembly Points by Zone: Zone A/B → Parking Lot North (Row A). Zone C/D → Parking Lot East (Row C). Zone E → Parking Lot South (Row F). Zone F/G → Parking Lot West (Main Entrance)." }
+      ]
+    },
+    {
+      "heading": "Medical Emergency",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "If a team member or visitor experiences a medical emergency (injury, sudden illness, loss of consciousness):" },
+        { "type": "numbered_list", "items": [
+          "Call 911 immediately for any life-threatening emergency. Do not delay calling for management approval.",
+          "Call out for help — ask a nearby colleague to notify the supervisor and retrieve the first aid kit and AED.",
+          "Do not move the injured person unless they are in immediate danger from their surroundings.",
+          "If the person is unresponsive and not breathing normally, begin CPR if you are trained. Use the AED (Automated External Defibrillator) located at Zone F (break room) and Zone A (receiving dock).",
+          "Assign someone to meet EMS at the facility entrance and guide them to the location.",
+          "Clear the area of non-essential personnel to give responders space.",
+          "The supervisor must complete an Incident Report before end of shift for any medical event, regardless of severity."
+        ]}
+      ]
+    },
+    {
+      "heading": "Shelter-in-Place",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Shelter-in-place is required during severe weather events (tornado warning, extreme wind), civil disturbances, or hazardous material incidents in the surrounding area. The supervisor will initiate shelter-in-place via the PA system." },
+        { "type": "numbered_list", "items": [
+          "Move immediately to the interior Shelter Zone — the interior hallway between Zone F (break room) and Zone G (office), away from windows and dock doors.",
+          "Close all dock doors and exterior windows.",
+          "Account for all team members with your supervisor.",
+          "Silence personal phones. Monitor the supervisor for updates.",
+          "Do not exit the building until the All Clear is announced by the supervisor or local authorities.",
+          "For chemical/HAZMAT shelter-in-place: turn off HVAC if instructed by authorities; seal gaps under doors if available."
+        ]}
+      ]
+    },
+    {
+      "heading": "Active Threat / Workplace Violence",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "In the event of an active threat or workplace violence situation, follow the RUN – HIDE – FIGHT protocol:" },
+        { "type": "bullet_list", "items": [
+          "RUN: If there is a safe path, evacuate immediately. Leave belongings behind. Alert others as you go. Call 911 when safe.",
+          "HIDE: If you cannot evacuate, find a secure location. Lock or barricade the door. Turn off lights. Silence your phone. Do not open the door until police give the all-clear.",
+          "FIGHT: As a last resort, if your life is in imminent danger, act aggressively. Use any available items as improvised weapons. Commit to your actions."
+        ]},
+        { "type": "paragraph", "text": "Contoso Retail conducts annual Active Threat Awareness training for all team members. Contact your supervisor to confirm your training is current." }
+      ]
+    }
+  ]
+}

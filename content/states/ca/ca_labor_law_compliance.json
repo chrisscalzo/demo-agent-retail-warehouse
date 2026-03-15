@@ -1,0 +1,95 @@
+{
+  "title": "California Labor Law Compliance",
+  "version": "1.0",
+  "category": "CA",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California has some of the most employee-protective labor laws in the United States. Many California wage and hour rules are significantly more generous than federal standards. This document summarizes the key California labor law requirements applicable to Contoso Retail warehouse team members in California. Where California law is more protective than federal law, California law applies." }
+      ]
+    },
+    {
+      "heading": "Minimum Wage",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California's statewide minimum wage applies to all Contoso Retail California hourly employees. Some counties and cities (Los Angeles, San Francisco, Fresno, etc.) have higher local minimum wages. Contoso Retail always pays the highest applicable rate." },
+        { "type": "paragraph", "text": "The current California statewide minimum wage is posted on the break room labor law poster, updated annually on January 1. If you believe you are being paid below the minimum wage, contact HR or the California Labor Commissioner's Office (1-844-522-6734) immediately." }
+      ]
+    },
+    {
+      "heading": "Rest and Meal Breaks",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California has strict break requirements — more protective than federal FLSA rules:" },
+        { "type": "table", "headers": ["Break Type", "California Requirement", "Paid?"], "rows": [
+          ["Rest Break", "10 minutes for every 4 hours worked (or major fraction thereof)", "Yes — paid"],
+          ["Meal Period", "30-minute uninterrupted meal period if working more than 5 hours", "No — unpaid (unless unable to be relieved)"],
+          ["Second Meal Period", "30-minute uninterrupted meal period if working more than 10 hours", "No — unpaid"]
+        ]},
+        { "type": "paragraph", "text": "Important California-specific rules:" },
+        { "type": "bullet_list", "items": [
+          "Rest breaks may not be combined with meal periods or taken at the beginning or end of a shift.",
+          "If a meal period is not provided on time, Contoso Retail owes the employee one additional hour of pay at the regular rate — called a 'premium.' This is tracked automatically by WMS.",
+          "If a rest break is not authorized, Contoso Retail owes the employee one additional hour of pay.",
+          "Meal periods that are 'on-duty' (employee cannot be relieved of duties) require a written on-duty meal agreement and the time is paid. Contact HR if your role requires on-duty meals.",
+          "Employees may waive the second meal period if the total work period is no more than 12 hours and the first meal period was not waived."
+        ]}
+      ]
+    },
+    {
+      "heading": "Overtime Rules",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California has both daily and weekly overtime requirements — this is different from federal law which only has weekly overtime:" },
+        { "type": "table", "headers": ["Hours Worked", "Pay Rate"], "rows": [
+          ["First 8 hours in a day", "Regular rate"],
+          ["Hours 8–12 in a day", "1.5× regular rate (daily OT)"],
+          ["Hours 12+ in a day", "2× regular rate (double time)"],
+          ["First 8 hours on 7th consecutive day in workweek", "1.5× regular rate"],
+          ["Hours 8+ on 7th consecutive day in workweek", "2× regular rate"],
+          ["Hours 40–60 in a week", "1.5× regular rate (if not already covered by daily OT)"]
+        ]},
+        { "type": "paragraph", "text": "California's workweek runs Sunday through Saturday at Contoso Retail. Overtime is calculated in WMS automatically. Any discrepancies in your paycheck should be reported to HR within 5 business days." }
+      ]
+    },
+    {
+      "heading": "Split Shift Premium",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "A 'split shift' occurs when a work schedule includes an unpaid interruption of more than 1 hour (excluding a bona fide meal period). California requires a split shift premium:" },
+        { "type": "paragraph", "text": "The split shift premium equals one hour's pay at the minimum wage rate. However, if the employee's total wages for the day exceed the minimum wage for all hours worked plus one additional hour, no premium is owed. This is calculated automatically in WMS for California team members." }
+      ]
+    },
+    {
+      "heading": "Final Pay Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California has strict final pay rules:" },
+        { "type": "bullet_list", "items": [
+          "If an employee is terminated (involuntary), final pay including all accrued and unused vacation/PTO is due immediately at the time of termination.",
+          "If an employee resigns with at least 72 hours' notice, final pay is due on the last day of work.",
+          "If an employee resigns with less than 72 hours' notice, final pay is due within 72 hours of the notice.",
+          "Failure to provide timely final pay results in 'waiting time penalties' — one day's wages per day of delay, up to 30 days.",
+          "Supervisors must immediately notify HR when a team member separates from employment to ensure timely final pay processing."
+        ]}
+      ]
+    },
+    {
+      "heading": "Sick Leave (California)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Under California's Healthy Workplaces Healthy Families Act, all employees (including part-time and temporary) accrue paid sick leave. Contoso Retail California provides:" },
+        { "type": "bullet_list", "items": [
+          "Accrual: 1 hour of paid sick leave for every 30 hours worked.",
+          "Minimum usable per year: At least 5 days (40 hours) of accrued sick leave is available for use per year.",
+          "Sick leave may be used for the employee's own illness or that of a family member.",
+          "Retaliation for using sick leave is prohibited and carries civil penalties.",
+          "Sick leave balances are shown on your pay stub."
+        ]}
+      ]
+    }
+  ]
+}

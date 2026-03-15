@@ -1,0 +1,91 @@
+{
+  "title": "Warehouse Operations Overview",
+  "version": "1.0",
+  "category": "General",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Introduction",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Welcome to Contoso Retail's warehouse operations guide. This document provides an overview of our facility layout, organizational structure, roles and responsibilities, operational hours, and key performance indicators (KPIs). All team members, supervisors, and managers should familiarize themselves with this document to ensure smooth, safe, and efficient operations." }
+      ]
+    },
+    {
+      "heading": "Facility Layout",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail warehouses are organized into distinct functional zones to maximize efficiency and safety:" },
+        { "type": "bullet_list", "items": [
+          "Receiving Dock (Zone A): Inbound freight, unloading, and intake inspection.",
+          "Staging Area (Zone B): Temporary holding for sorted inbound goods awaiting putaway.",
+          "Storage Aisles (Zone C): Racking systems organized by product category and velocity (A/B/C items).",
+          "Pick & Pack Area (Zone D): Order fulfillment station with packing supplies and QC scanners.",
+          "Outbound Dock (Zone E): Shipping lanes, carrier staging, and manifest processing.",
+          "Break Room & Locker Area (Zone F): Employee amenities, first aid station, safety bulletin board.",
+          "Office & Manager Area (Zone G): Administrative functions, security monitoring, HR station."
+        ]},
+        { "type": "paragraph", "text": "Emergency exits are located at each dock door, the east and west building ends, and adjacent to the break room. All aisles must remain clear of obstructions at all times per fire code and OSHA regulations." }
+      ]
+    },
+    {
+      "heading": "Organizational Structure",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail warehouse operations follow a clear reporting hierarchy:" },
+        { "type": "table", "headers": ["Role", "Reports To", "Key Responsibilities"], "rows": [
+          ["Warehouse Manager", "Regional Director", "P&L ownership, staffing, vendor relations, KPI accountability"],
+          ["Operations Supervisor", "Warehouse Manager", "Shift oversight, team coaching, safety compliance, escalation point"],
+          ["Lead Team Member", "Operations Supervisor", "Zone lead, peer training, daily task coordination"],
+          ["Team Member", "Lead Team Member / Supervisor", "Receiving, putaway, picking, packing, shipping, housekeeping"],
+          ["Inventory Specialist", "Warehouse Manager", "Cycle counts, shrink management, system reconciliation"],
+          ["Safety Coordinator", "Warehouse Manager", "Safety inspections, incident tracking, training compliance"]
+        ]}
+      ]
+    },
+    {
+      "heading": "Operational Hours",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Standard operating hours vary by facility, but Contoso Retail warehouses typically operate three shifts:" },
+        { "type": "table", "headers": ["Shift", "Hours", "Primary Activities"], "rows": [
+          ["AM (First Shift)", "6:00 AM – 2:30 PM", "Receiving, inbound putaway, replenishment"],
+          ["PM (Second Shift)", "2:00 PM – 10:30 PM", "Pick & pack, outbound shipping, returns processing"],
+          ["Night (Third Shift)", "10:00 PM – 6:30 AM", "Inventory counts, cleaning, wave planning, cross-dock"]
+        ]},
+        { "type": "paragraph", "text": "Overlap periods (30 minutes) between shifts are dedicated to formal handoff meetings. Attendance at handoff is mandatory for all leads and supervisors." }
+      ]
+    },
+    {
+      "heading": "Key Performance Indicators (KPIs)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail measures warehouse performance through the following core KPIs. Results are reviewed weekly by management and shared with team members during daily huddles:" },
+        { "type": "table", "headers": ["KPI", "Target", "Measurement Frequency"], "rows": [
+          ["Order Fulfillment Rate", "≥ 99.5%", "Daily"],
+          ["On-Time Shipping", "≥ 98%", "Daily"],
+          ["Inventory Accuracy", "≥ 99%", "Weekly (cycle count)"],
+          ["Units Per Hour (UPH) – Picking", "≥ 120 units/hr", "Per shift"],
+          ["Receiving Throughput", "≤ 24 hrs dock-to-stock", "Daily"],
+          ["Safety Incident Rate", "0 recordable incidents", "Monthly"],
+          ["Attendance Rate", "≥ 96%", "Weekly"]
+        ]},
+        { "type": "paragraph", "text": "Team members who consistently exceed KPI targets are recognized through our monthly STAR Award program. Persistent underperformance triggers a coaching conversation with the supervisor." }
+      ]
+    },
+    {
+      "heading": "Communication Channels",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Effective communication is essential for warehouse operations. Contoso Retail uses the following channels:" },
+        { "type": "bullet_list", "items": [
+          "Daily Huddle: 5-minute shift-start meeting at each zone for updates, safety topics, and priorities.",
+          "Warehouse Management System (WMS): All task assignments, inventory movements, and shipping events are logged in WMS.",
+          "Microsoft Teams: Used for shift-to-shift communications, escalations, and announcements.",
+          "Printed Shift Report: Posted in the break room summarizing previous shift KPI results.",
+          "Safety Bulletin Board: Located near the break room entry — review daily for new notices."
+        ]}
+      ]
+    }
+  ]
+}

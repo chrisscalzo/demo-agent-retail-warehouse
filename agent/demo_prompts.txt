@@ -1,0 +1,435 @@
+================================================================
+CONTOSO RETAIL — WAREHOUSE ASSISTANT
+DEMO PROMPTS FOR COPILOT STUDIO AGENT
+================================================================
+
+
+────────────────────────────────────────────────────────────────
+SECTION 1: GENERAL PROMPTS (25)
+No state context needed — answered from general knowledge base
+────────────────────────────────────────────────────────────────
+
+OPERATIONS & SHIFT MANAGEMENT
+──────────────────────────────
+1.  What time does the AM shift start and end?
+
+2.  I need to call out sick for my shift today. What's the right process?
+
+3.  How far in advance do I need to request time off?
+
+4.  Can I swap shifts with a coworker? How does that work?
+
+5.  How do I sign up for voluntary overtime?
+
+6.  What happens during a shift handoff? What's the supervisor supposed to do?
+
+7.  I forgot my UKG Workforce password. Who do I contact?
+
+8.  How much notice do I get when my schedule changes?
+
+
+ONBOARDING & HR
+────────────────
+9.  It's my first week. What training do I need to complete and by when?
+
+10. What's the buddy program and how long does it last?
+
+11. When do my benefits kick in?
+
+12. What are the 30, 60, and 90 day milestones I'll be reviewed on?
+
+13. I lost my badge. What should I do?
+
+14. How do I get reimbursed for my safety boots?
+
+
+SAFETY — GENERAL
+─────────────────
+15. What PPE do I need to wear in the receiving dock area?
+
+16. How do I report a near-miss? Does it have to be a real injury to report it?
+
+17. What's the lockout/tagout process? When does it apply?
+
+18. I found a spill in aisle 7. What should I do?
+
+19. What are the emergency assembly points if we have to evacuate?
+
+20. Where are the AEDs located in the facility?
+
+21. Can I use a fire extinguisher if I see a small fire?
+
+
+EQUIPMENT
+──────────
+22. Do I need to be certified to drive a forklift? How do I get certified?
+
+23. What do I check on a forklift before I start my shift?
+
+24. Someone left a pallet jack blocking the main aisle. What are the rules about where equipment gets stored?
+
+25. The conveyor belt jammed. Can I try to clear it myself?
+
+
+────────────────────────────────────────────────────────────────
+SECTION 2: STATE-SPECIFIC PROMPTS — GENERIC (25)
+No state mentioned — state is pulled from the user's profile
+Agent uses profile to filter to the correct state knowledge source
+────────────────────────────────────────────────────────────────
+
+HEAT ILLNESS
+─────────────
+1.  It's going to be really hot today. What are the rules about water and shade breaks?
+
+2.  Am I allowed to take an extra break if I'm feeling overheated?
+
+3.  I just transferred from another state. Do I need to do anything different for the heat during my first week?
+
+4.  What temperature triggers the enhanced heat protocols at our facility?
+
+5.  My coworker looks pale and is sweating heavily but says she's fine. What should I do?
+
+
+SAFETY REGULATIONS
+───────────────────
+6.  Who is the OSHA authority for our state — is it federal OSHA or a state agency?
+
+7.  What's the safety program our facility is required to have by state law?
+
+8.  If I think there's a serious safety hazard, how do I file a complaint with the state safety agency?
+
+9.  Does my state require a written heat illness prevention plan?
+
+10. What are my rights if my employer retaliates against me for reporting a safety issue?
+
+
+LABOR LAW
+──────────
+11. How many rest breaks am I entitled to on an 8-hour shift?
+
+12. When does overtime kick in — is it based on daily hours or weekly hours?
+
+13. If I work more than 8 hours in a day, do I get overtime pay?
+
+14. How long do I have until I get my first meal break?
+
+15. I'm being asked to stay late tonight. How will the extra hours be paid?
+
+16. I resigned today. When should I expect my final paycheck?
+
+17. How much paid sick leave do I get and when can I start using it?
+
+
+WORKERS' COMPENSATION
+──────────────────────
+18. I hurt my wrist at work. What do I do first and how quickly does it need to be reported?
+
+19. How much of my pay do I get if I'm out injured and can't work?
+
+20. Can I see my own doctor for a work injury or do I have to use a company doctor?
+
+21. How long does my employer have to file the injury report after I tell them I got hurt?
+
+22. What happens if I think my employer retaliated against me for filing a workers' comp claim?
+
+
+HAZARD COMMUNICATION
+─────────────────────
+23. Where can I find the Safety Data Sheet for the floor cleaner we use?
+
+24. I'm new and haven't done any chemical safety training yet. When does that need to be completed?
+
+25. I found a container in the storage room with a damaged label. What should I do?
+
+
+────────────────────────────────────────────────────────────────
+SECTION 3: STATE-EXPLICIT PROMPTS (10)
+State is named in the prompt — agent instructions use this to
+override the user profile and pull from the named state's docs
+────────────────────────────────────────────────────────────────
+
+1.  What are the overtime rules specifically in California? I heard they're different from other states.
+
+2.  Our Las Vegas warehouse is dealing with extreme heat. What does Nevada law say we have to do for workers?
+
+3.  I'm a supervisor at our Phoenix facility. What does Arizona say about who picks the doctor after a work injury?
+
+4.  What does California's Proposition 65 mean for how we label chemicals in our CA warehouses?
+
+5.  I'm transferring to the Fresno warehouse. How is California's workers' comp reporting deadline different from what I'm used to?
+
+6.  Our Arizona facilities — do they fall under federal OSHA or does Arizona have its own state safety agency?
+
+7.  What's the California rule about meal breaks? A coworker told me we're supposed to get paid extra if we don't get one on time.
+
+8.  Nevada requires annual workers' comp training for all employees — what does that training need to cover?
+
+9.  The Tucson team is asking about monsoon season safety protocols. What should we have in place for haboobs and lightning?
+
+10. In California, if someone reports a near-miss, do they have any extra legal protections compared to other states?
+
+
+────────────────────────────────────────────────────────────────
+SECTION 4: CROSS-STATE COMPARISON PROMPTS (5)
+Prompts that invite the agent to compare policies across CA/NV/AZ
+────────────────────────────────────────────────────────────────
+
+1.  How does the overtime policy differ between our California, Nevada, and Arizona warehouses?
+    (Looking for: CA has daily OT after 8 hrs + double time after 12; NV weekly only [unless below 1.5x min wage]; AZ weekly only — no daily OT)
+
+2.  If a worker gets injured at work, how does the deadline for reporting to the employer's insurance company compare across CA, NV, and AZ?
+    (Looking for: CA = 1 day to provide DWC-1; NV = 7 days employee reporting; AZ = 10 days employee reporting)
+
+3.  Do workers get to choose their own doctor for a work injury in all three states, or does the company control that?
+    (Looking for: CA = employee chooses from MPN after initial; NV = employer panel but employee can switch; AZ = employer directs first 90 days)
+
+4.  Which of our states has the strictest heat illness requirements, and what's different about each one?
+    (Looking for: CA = most prescriptive — §3395 mandatory written plan, shade at 80°F; NV = guidance-based, 90°F protocols; AZ = federal OSHA General Duty + extreme heat/monsoon overlays)
+
+5.  How do the OSHA enforcement structures differ between California, Nevada, and Arizona — and what does that mean for our safety programs?
+    (Looking for: CA = Cal/OSHA state plan, DOSH enforcement, requires IIPP; NV = Nevada OSHA state plan, DIR, requires APP; AZ = Federal OSHA direct, AIC handles WC only — no state safety agency for private employers)
+
+
+────────────────────────────────────────────────────────────────
+SECTION 5: SAFETY ISSUE LOG — SUPERVISOR QUERIES (12)
+Agent reads the SharePoint "Safety Issue Log" list
+Supervisor view: cross-location visibility, analytics, management
+────────────────────────────────────────────────────────────────
+
+OPEN ISSUES & STATUS OVERVIEW
+───────────────────────────────
+1.  How many open safety issues do we have right now across all locations?
+
+2.  Show me every Critical severity issue that is still open or in progress.
+
+3.  Give me a summary of all open and in-progress issues at the Las Vegas warehouse.
+
+4.  Which of our six warehouse locations has the highest number of reported
+    safety issues in the last 90 days?
+
+5.  How many issues are still sitting at Open status — and how many of those
+    have been open for more than 30 days?
+
+
+ISSUE TYPE & SEVERITY BREAKDOWNS
+──────────────────────────────────
+6.  List all near-miss incidents across all locations. Include the location,
+    severity, and current status for each one.
+
+7.  Do we have any Equipment issues that are still unresolved? Give me the
+    location and description for each one.
+
+8.  Are there any environmental issues logged at our California facilities?
+    What's the status on those?
+
+9.  Show me all High and Critical issues that are currently In Progress.
+    I need to know if any are at risk of being stuck.
+
+
+RESOLUTION & TREND ANALYSIS
+─────────────────────────────
+10. What were the most recent issues reported at our Arizona locations
+    (Phoenix and Tucson)?
+
+11. How many issues have been fully resolved in the last 60 days?
+    Give me a breakdown by issue type.
+
+12. Which team members have submitted the most safety reports? I want to
+    recognize employees who are actively raising concerns.
+
+
+────────────────────────────────────────────────────────────────
+SECTION 6: SAFETY ISSUE LOG — TEAM MEMBER QUERIES (10)
+Agent reads the SharePoint "Safety Issue Log" list
+Team member view: personal/location-specific, status checks, safety awareness
+────────────────────────────────────────────────────────────────
+
+STATUS CHECKS ON SPECIFIC ISSUES
+──────────────────────────────────
+1.  I reported a pallet jack problem last week — has it been fixed yet?
+
+2.  What's the status of the dock leveler issue at Bay 3? Is it safe to use?
+
+3.  I heard there was a forklift near-miss near the charging station.
+    What happened and has it been addressed?
+
+4.  Is the conveyor belt that was taken out of service back up and running?
+
+5.  Someone mentioned there was a chemical smell in the cold storage area.
+    Was that resolved — is it safe to go back in there?
+
+
+LOCATION-SPECIFIC AWARENESS
+─────────────────────────────
+6.  Are there any open safety issues at my warehouse I should know about
+    before my shift starts?
+
+7.  I work in Zone C and heard there was a heat incident. What was logged
+    and what did they do about it?
+
+8.  Are there any reported issues in the dock area right now?
+
+9.  I saw a cracked safety mirror at the aisle corner but didn't know if
+    anyone already reported it. Can you check if it's in the system?
+
+
+GENERAL SAFETY AWARENESS
+──────────────────────────
+10. What safety issues have come in this week across any of our locations?
+    Just give me a quick rundown — I want to stay in the loop.
+
+
+────────────────────────────────────────────────────────────────
+SECTION 7: SAFETY ISSUE LOG — NEW SUBMISSION PROMPTS (8)
+Agent collects issue details via slot-filling, then posts to the list
+These prompts trigger the "Log Safety Issue" topic in Copilot Studio
+Agent should collect: ReporterName, WarehouseLocation, IssueType,
+Description, Severity — then confirm and submit
+────────────────────────────────────────────────────────────────
+
+GENERIC TRIGGERS
+─────────────────
+1.  I want to log a safety issue.
+
+2.  I need to report a safety concern from my shift today.
+
+3.  Can you help me submit a safety incident report?
+
+
+EQUIPMENT ISSUES
+─────────────────
+4.  There's a pallet jack in the staging area with a broken handle —
+    it's wobbling and I don't think it's safe to use. I need to report it.
+
+5.  I noticed the reverse alarm on one of the forklifts isn't making
+    any sound when it backs up. That needs to be logged right away.
+
+
+ENVIRONMENTAL / NEAR-MISS ISSUES
+──────────────────────────────────
+6.  I just saw a forklift come way too close to a team member in the
+    main aisle — no contact, but it was seriously close. I want to
+    file a near-miss report.
+
+7.  There's a liquid spill near the receiving dock that nobody has
+    put wet floor signs around yet. I need to report it before someone
+    slips.
+
+8.  The temperature in Zone B is hitting close to 100 degrees and
+    we don't have any extra water out there. I think this needs to
+    be flagged as a safety issue.
+
+
+────────────────────────────────────────────────────────────────
+SECTION 8: PPE SUGGESTION AGENT — ROLE-BASED PPE LOOKUPS (10)
+Agent delegates to the PPE Suggestion Agent child agent
+Child agent queries the Dataverse PPE Kit Recommendation table
+────────────────────────────────────────────────────────────────
+
+ROLE-SPECIFIC LOOKUPS
+──────────────────────
+1.  I'm a dock worker. What PPE do I need for my shift?
+
+2.  What PPE does a forklift operator need to wear?
+
+3.  I just got assigned to the pick and pack area. What's in
+    the Pick & Pack Associate kit?
+
+4.  What safety equipment does a reach truck operator need?
+    I heard it's different from regular forklift PPE.
+
+5.  I'm starting as a battery room technician next week.
+    What special PPE will I need?
+
+
+DEPARTMENT & NEW HIRE SCENARIOS
+────────────────────────────────
+6.  What PPE kits are available for people in the Maintenance
+    department? I want to see all the roles.
+
+7.  I'm a new hire and I'll be working in cold storage.
+    What PPE should I get before my first shift?
+
+8.  We have a contractor coming to tour the facility tomorrow.
+    What PPE do they need?
+
+9.  I'm a floor supervisor — do I need to wear the same PPE
+    as my team, or is there a different kit for supervisors?
+
+10. What PPE does a hazmat spill responder need? I'm thinking
+    about volunteering for the response team.
+
+
+SECTION 8 (PPE Suggestion Agent): Use these to show the parent
+agent delegating to the PPE Suggestion Agent child agent. The
+child agent queries the Dataverse PPE Kit Recommendation table
+and returns role-specific PPE kit details with safety standards,
+required vs optional items, and zone/certification notes.
+Good for: demonstrating multi-agent orchestration, Dataverse
+MCP integration, and structured PPE recommendations.
+Contrast with Section 1 prompt #15 ("What PPE do I need to
+wear in the receiving dock area?") which is zone-based and
+should NOT delegate — it should answer from the General PPE
+Policy document instead.
+
+================================================================
+USAGE NOTES FOR DEMO
+================================================================
+
+SECTION 1 (General): Use these to show the agent answering
+from the general SharePoint knowledge base — no state filtering.
+Good for: new hire demos, supervisors, HR questions.
+
+SECTION 2 (State Generic): Use these to show the agent
+personalizing answers based on the user's profile state.
+Demonstrate the system prompt instruction:
+  "When answering safety or labor questions, use documents
+   from the user's state folder ({UserState})."
+Good for: showing personalization without the user having
+to specify their state every time.
+
+SECTION 3 (State Explicit): Use these to show the agent
+overriding the user profile when a state is named.
+Demonstrate the instruction:
+  "If the user mentions a specific state by name, use
+   documents from that state's folder instead of the
+   user's profile state."
+Good for: managers overseeing multiple facilities,
+supervisors asking about other locations.
+
+SECTION 4 (Cross-State Comparison): Use these to show
+the agent synthesizing across multiple state documents.
+These are high-impact demo moments — they show the agent
+doing real knowledge work, not just document lookup.
+Expected answers are noted in parentheses for demo prep.
+
+SECTION 5 (Supervisor List Queries): Use these to show
+the agent reading from the SharePoint "Safety Issue Log"
+list as a supervisor. Demonstrate cross-location visibility,
+severity filtering, near-miss identification, and trend
+analysis. Best shown logged in as a Manager/Supervisor
+persona. Connect list via Power Automate or SharePoint
+connector in Copilot Studio.
+
+SECTION 6 (Team Member List Queries): Use these to show
+the agent reading from the list from a team member's
+perspective — status checks on specific issues, shift
+awareness, and location-specific queries. Same connector
+as Section 5; the agent persona/topic determines the
+answer framing.
+
+SECTION 7 (New Submissions — Slot-Filling): Use these to
+show the "Log Safety Issue" topic in action. The agent
+should ask for:
+  • Reporter name
+  • Warehouse location (drop-down of 6 choices)
+  • Issue type (Equipment / Environmental / Process /
+    Near-Miss / Other)
+  • Description of what you observed
+  • Severity (Low / Medium / High / Critical)
+Then confirm and submit via Power Automate flow.
+These prompts are intentionally incomplete — they give
+the agent a starting description so the slot-filling
+conversation looks natural and realistic in the demo.
+
+================================================================

@@ -1,0 +1,105 @@
+{
+  "title": "Nevada Hazard Communication",
+  "version": "1.0",
+  "category": "NV",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview: Nevada Right-to-Know and HazCom",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada's Hazard Communication requirements are incorporated into Nevada OSHA regulations (NAC 618) and mirror the federal GHS-based HazCom 2012 standard (29 CFR 1910.1200). Nevada also maintains a Right-to-Know framework that ensures employees have access to information about hazardous chemicals in their workplace. Contoso Retail Nevada facilities comply with all applicable Nevada OSHA hazard communication requirements." }
+      ]
+    },
+    {
+      "heading": "Nevada Right-to-Know Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada's Right-to-Know provisions require that employees have meaningful access to information about hazardous chemicals they may be exposed to at work:" },
+        { "type": "bullet_list", "items": [
+          "Employees have the right to request and receive Safety Data Sheets (SDS) for any chemical used in their work area.",
+          "Contoso Retail must maintain a current SDS for each hazardous chemical in the facility and make it accessible during all work shifts.",
+          "Employees have the right to know the identity of any chemical to which they may be exposed.",
+          "Contoso Retail is prohibited from claiming 'trade secret' protection for a chemical's identity when an employee requires it for medical treatment.",
+          "Employees who believe they are being denied chemical hazard information may file a complaint with Nevada OSHA."
+        ]}
+      ]
+    },
+    {
+      "heading": "SDS Accessibility Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Safety Data Sheets must be readily accessible to employees at all times during the work shift. Contoso Retail Nevada facilities maintain SDS access through:" },
+        { "type": "bullet_list", "items": [
+          "Physical SDS Binder: Located at Zone A (supervisor station) and Zone F (break room). Updated by the Safety Coordinator whenever new chemicals are introduced.",
+          "Digital Access: SDS library accessible in WMS under 'Safety' → 'SDS Library' from any WMS terminal on the floor.",
+          "Emergency Response: SDS for chemicals used in the facility are also available at the security desk for use by emergency responders.",
+          "For any chemical where the physical binder SDS is missing or outdated, contact the Safety Coordinator immediately. Do not use the chemical until a current SDS is available."
+        ]}
+      ]
+    },
+    {
+      "heading": "Chemical Labeling (GHS)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "All hazardous chemical containers in Contoso Retail Nevada facilities must carry GHS-compliant labels. Required label elements:" },
+        { "type": "bullet_list", "items": [
+          "Product identifier matching the SDS.",
+          "Signal word: DANGER (more severe hazard) or WARNING (less severe hazard).",
+          "Hazard statements describing the nature of the hazard.",
+          "Precautionary statements (prevention, response, storage, disposal).",
+          "GHS hazard pictograms (health hazard, flammable, corrosive, etc.).",
+          "Supplier information (name, address, telephone number)."
+        ]},
+        { "type": "paragraph", "text": "Secondary containers (e.g., a spray bottle filled from a bulk container) must also be labeled with at least the product identifier and appropriate hazard warnings. Unlabeled containers of hazardous chemicals are prohibited. If you encounter an unlabeled container, stop using it and notify your supervisor immediately." }
+      ]
+    },
+    {
+      "heading": "Language and Bilingual Labeling Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada OSHA (NAC 618) requires that chemical labels and safety information be communicated in a manner employees can understand. Unlike California — which actively encourages bilingual labeling for Spanish-speaking workers and where the Safety Coordinator maintains Spanish-language labels as standard practice — Nevada does not mandate bilingual labels beyond the general requirement that information be comprehensible to employees." },
+        { "type": "paragraph", "text": "For Contoso Retail Nevada facilities:" },
+        { "type": "bullet_list", "items": [
+          "All GHS-format labels must be in English at minimum — this is a federal HazCom requirement that Nevada OSHA adopts.",
+          "If a significant portion of the workforce at a Nevada facility speaks a language other than English, Contoso Retail will provide Spanish-language SDS summaries or labels upon request — this is a company practice, not a Nevada regulatory requirement.",
+          "Nevada does not have a Proposition 65 equivalent; there are no additional state-mandated chemical warning requirements beyond federal GHS/HazCom labeling.",
+          "SDS are maintained in English. Employees who need SDS information in another language may request assistance from the Safety Coordinator, who can access translated SDS summaries through the WMS digital library.",
+          "Supervisors conducting HazCom training at Nevada facilities with multilingual teams are encouraged (but not legally required) to use bilingual training materials or an interpreter."
+        ]},
+        { "type": "paragraph", "text": "Compare: California's approach is more prescriptive — the Safety Coordinator proactively maintains Spanish-language labels for common chemicals and bilingual training is common practice across all CA facilities. Arizona follows federal HazCom only: English is required; additional languages are permitted but not mandated." }
+      ]
+    },
+    {
+      "heading": "Annual Training Mandate (Nevada-Specific)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada OSHA requires annual HazCom refresher training as part of the employer's safety program. This is in addition to the initial training provided at hire. Contoso Retail Nevada's annual HazCom training includes:" },
+        { "type": "numbered_list", "items": [
+          "Review of the GHS labeling system and how to interpret labels.",
+          "How to find and read an SDS for any chemical in the facility.",
+          "Review of specific chemicals used in each work area and their hazards.",
+          "Proper PPE for chemical handling.",
+          "Emergency procedures for chemical spills and exposures.",
+          "Nevada Right-to-Know employee rights."
+        ]},
+        { "type": "paragraph", "text": "Annual training is completed through Contoso Learn and tracked by the Safety Coordinator. Nevada OSHA may request training records during inspections. Employees who miss the scheduled annual training must complete a makeup session within 30 days." }
+      ]
+    },
+    {
+      "heading": "Chemical Spill Response",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "In the event of a chemical spill at a Contoso Retail Nevada facility:" },
+        { "type": "numbered_list", "items": [
+          "Alert others in the area to move away from the spill.",
+          "Identify the chemical using the container label or SDS — do not attempt cleanup without knowing what was spilled.",
+          "For small spills of non-hazardous cleaners: use appropriate PPE (gloves, safety glasses) and clean up with absorbent material from the spill station. Dispose of material in hazardous waste container if chemical is hazardous.",
+          "For large spills, spills of highly hazardous chemicals, or if you are unsure: evacuate the immediate area and call the supervisor. Do not attempt cleanup.",
+          "For any spill that reaches a floor drain: notify the supervisor and Safety Coordinator immediately. Environmental reporting may be required.",
+          "After any spill: complete an Incident Report. Document the quantity spilled, the response actions, and any potential exposures."
+        ]}
+      ]
+    }
+  ]
+}

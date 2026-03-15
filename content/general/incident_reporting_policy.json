@@ -1,0 +1,101 @@
+{
+  "title": "Incident & Near-Miss Reporting Policy",
+  "version": "1.0",
+  "category": "General",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Purpose",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail requires all workplace incidents, injuries, illnesses, and near-misses to be reported promptly and accurately. Reporting enables us to provide proper medical care, fulfill legal obligations, and most importantly — identify root causes so we can prevent future incidents. This policy applies to all full-time, part-time, temporary, and contract workers on Contoso Retail premises." }
+      ]
+    },
+    {
+      "heading": "What to Report",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Report ALL of the following events, regardless of whether an injury or damage occurred:" },
+        { "type": "bullet_list", "items": [
+          "Any injury or illness that occurs in the workplace or while performing work-related activities.",
+          "Near-misses: An unplanned event that did not result in injury or damage, but could have (e.g., a forklift stops short of striking a pedestrian, a load falls from racking but no one is nearby).",
+          "Property damage: Damage to equipment, racking, vehicles, or the building caused by workplace activities.",
+          "Security incidents: Theft, unauthorized access, or threatening behavior.",
+          "Environmental releases: Chemical spills, fluid leaks that enter drains or the environment."
+        ]},
+        { "type": "paragraph", "text": "There is no minimum threshold for reporting. When in doubt, report it. Near-miss reporting is especially valued — team members who report near-misses are recognized, not penalized." }
+      ]
+    },
+    {
+      "heading": "Reporting Timeline (24-Hour Rule)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "All incidents must be reported within specific timeframes:" },
+        { "type": "table", "headers": ["Incident Type", "Report To", "Deadline"], "rows": [
+          ["Any injury requiring first aid or beyond", "Supervisor verbally", "Immediately (before continuing work)"],
+          ["Any injury (formal report)", "Supervisor — Incident Report form", "Before end of shift"],
+          ["Any near-miss", "Supervisor or Warehouse Assistant agent", "Within 24 hours"],
+          ["OSHA recordable injury/illness", "Safety Coordinator", "Before end of business day"],
+          ["Fatality or hospitalization of 3+ workers", "OSHA (1-800-321-6742)", "Within 8 hours (federal law)"],
+          ["Amputation, loss of eye, inpatient hospitalization", "OSHA (1-800-321-6742)", "Within 24 hours (federal law)"]
+        ]},
+        { "type": "paragraph", "text": "State-specific reporting timelines for workers' compensation may be shorter than the above. Refer to your state's Workers' Compensation document for state-specific deadlines." }
+      ]
+    },
+    {
+      "heading": "How to File an Incident Report",
+      "level": 1,
+      "content": [
+        { "type": "numbered_list", "items": [
+          "Notify your supervisor verbally as soon as the incident occurs.",
+          "Seek medical attention if needed. For life-threatening injuries, call 911 first.",
+          "Preserve the incident scene — do not move equipment or clean up (unless preserving the scene poses an ongoing safety hazard) until the supervisor and Safety Coordinator have assessed it.",
+          "Complete the paper Incident Report form (available at the supervisor station and Zone F safety board) with your supervisor within your shift.",
+          "Alternatively, use the Warehouse Assistant agent to log a safety issue — the agent will collect all required fields and submit to the Safety Issue Log.",
+          "The supervisor reviews the report for completeness and submits to the Safety Coordinator before end of shift.",
+          "The Safety Coordinator determines if the incident is OSHA recordable and enters it into the OSHA 300 log if required."
+        ]}
+      ]
+    },
+    {
+      "heading": "Supervisor Responsibilities",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "When an incident is reported to a supervisor, they must:" },
+        { "type": "bullet_list", "items": [
+          "Ensure the injured worker receives appropriate medical care before any paperwork.",
+          "Secure the incident scene and investigate root cause within 24 hours.",
+          "Complete the Supervisor's Incident Investigation Report (SIIR) in addition to the employee's report.",
+          "Identify at least 3 contributing factors and recommend corrective actions.",
+          "Brief the incoming shift supervisor during the next handoff.",
+          "Follow up with the injured worker within 48 hours regarding their condition and return-to-work status.",
+          "Track corrective actions to completion — do not close an incident until all corrective actions are implemented."
+        ]}
+      ]
+    },
+    {
+      "heading": "OSHA Recordable Incidents",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "A work-related injury or illness is OSHA recordable if it results in any of the following:" },
+        { "type": "bullet_list", "items": [
+          "Days away from work.",
+          "Restricted work or job transfer.",
+          "Medical treatment beyond first aid.",
+          "Loss of consciousness.",
+          "Diagnosis of a significant injury or illness by a healthcare professional.",
+          "Needlestick or sharps injury involving blood or other potentially infectious material."
+        ]},
+        { "type": "paragraph", "text": "First aid does NOT make an incident recordable. First aid examples: non-prescription medication at non-prescription strength, tetanus immunization, cleaning/flushing/soaking surface wounds, use of non-rigid means of support (bandages, elastic wrap), over-the-counter eye patches." },
+        { "type": "paragraph", "text": "OSHA 300 logs are maintained by the Safety Coordinator and posted annually (February 1 – April 30) in the break room as required by law." }
+      ]
+    },
+    {
+      "heading": "Non-Retaliation",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail strictly prohibits any form of retaliation against team members who report injuries, illnesses, near-misses, or safety concerns. This includes but is not limited to: termination, demotion, reassignment, or disciplinary action taken in response to a safety report. Any suspected retaliation should be reported immediately to HR or the Warehouse Manager." }
+      ]
+    }
+  ]
+}

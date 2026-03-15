@@ -1,0 +1,89 @@
+{
+  "title": "Holiday & Peak Season Procedures",
+  "version": "1.0",
+  "category": "General",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Purpose & Scope",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "This document outlines procedures for managing warehouse operations during peak seasons and holidays. Peak periods place elevated demands on staffing, equipment, and throughput. All team members, supervisors, and managers must be familiar with these procedures before peak season begins." }
+      ]
+    },
+    {
+      "heading": "Peak Season Calendar",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail designates the following periods as official peak seasons. Staffing and operational policies in this document apply during these windows:" },
+        { "type": "table", "headers": ["Peak Period", "Approximate Dates", "Volume Increase"], "rows": [
+          ["Back-to-School", "Late July – Mid August", "+20–30%"],
+          ["Pre-Holiday Ramp", "October 15 – November 20", "+40–50%"],
+          ["Black Friday / Cyber Week", "Nov 20 – Dec 2", "+80–100%"],
+          ["Holiday Peak", "December 3 – December 23", "+60–80%"],
+          ["Post-Holiday Returns", "December 26 – January 10", "+30–40%"],
+          ["Spring Reset", "Late February – Mid March", "+15–20%"]
+        ]},
+        { "type": "paragraph", "text": "Facility-level peak calendars are posted on the safety bulletin board and shared via Teams by the Warehouse Manager no later than 30 days before each peak period." }
+      ]
+    },
+    {
+      "heading": "Surge Staffing",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail uses a combination of existing staff overtime and temporary workers to cover peak volume:" },
+        { "type": "bullet_list", "items": [
+          "Voluntary Overtime Solicitation: Posted in UKG Workforce 3 weeks before peak start. Team members may sign up for extended shifts (up to 10 hours) and weekend shifts.",
+          "Temporary Staffing Agencies: Approved agency partners provide temporary workers. Agency contact list is maintained by the Warehouse Manager.",
+          "Seasonal Direct Hires: HR may open seasonal positions. Referrals from current team members receive a $200 bonus upon the seasonal hire completing 60 days.",
+          "Inter-Facility Transfers: During extreme peak, team members may be asked to temporarily support other facilities. All transfers are voluntary unless Regional Director authorizes mandatory transfer."
+        ]}
+      ]
+    },
+    {
+      "heading": "Mandatory Overtime Policy (Peak)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "During designated peak periods, mandatory overtime may be required. The following rules apply:" },
+        { "type": "bullet_list", "items": [
+          "Mandatory overtime is authorized during Black Friday/Cyber Week and Holiday Peak periods only.",
+          "Mandatory OT assignments are rotated equitably among team members using the OT rotation list maintained by supervisors.",
+          "Maximum mandatory OT is 2 additional hours per shift or one additional full shift per week.",
+          "Team members with approved medical accommodations, childcare documentation, or approved LOA are exempt.",
+          "Notice of mandatory OT will be given no later than the prior shift's handoff meeting whenever operationally possible.",
+          "Refusal of mandatory OT without an approved exemption will result in an unexcused absence on record."
+        ]}
+      ]
+    },
+    {
+      "heading": "Temporary Worker Onboarding",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Temporary workers require accelerated onboarding to ensure safety and productivity during peak periods:" },
+        { "type": "numbered_list", "items": [
+          "Agency Confirmation: Confirm worker arrival with the staffing agency 48 hours in advance.",
+          "Day 1 Safety Briefing: All temporary workers complete the 1-hour facility safety orientation before beginning work. Supervisor or Safety Coordinator must conduct this.",
+          "PPE Issuance: Issue required PPE (hi-vis vest, safety glasses, gloves) from the PPE station. Temps are responsible for returning PPE at end of assignment.",
+          "Zone Assignment: Assign temps to lower-complexity zones (receiving assist, replenishment, packing). Do not assign temps to forklift operation.",
+          "Buddy System: Pair each temp with an experienced team member for the first two shifts.",
+          "Badge & Access: Temporary access badges must be collected by the supervisor at the end of each temp's final shift."
+        ]}
+      ]
+    },
+    {
+      "heading": "Communication Protocols During Peak",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Clear and timely communication is critical during high-volume periods. The following elevated protocols apply during peak seasons:" },
+        { "type": "bullet_list", "items": [
+          "Huddles are extended to 10 minutes during peak with mandatory KPI review.",
+          "Supervisors must post hourly throughput to the team scoreboard in WMS.",
+          "Any equipment failure during peak must be escalated to the supervisor immediately. Equipment sits idle no longer than 15 minutes before an escalation call to the Warehouse Manager.",
+          "All shift handoff reports are also emailed to the Warehouse Manager during peak.",
+          "Teams #peak-ops channel is monitored by management from 5 AM to midnight during peak periods.",
+          "Customer escalations (carrier miss, stock-out) are escalated directly to the Warehouse Manager, not held for end-of-shift."
+        ]}
+      ]
+    }
+  ]
+}

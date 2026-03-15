@@ -1,0 +1,25 @@
+Title,DateReported,ReporterName,WarehouseLocation,IssueType,Description,Severity,Status,ResolutionNotes
+Forklift F-12 Reverse Alarm Failure,2/10/2026,Jamie Rivera,CA-LAX-001 Los Angeles,Equipment,"Forklift reverse alarm not working on Unit F-12.",High,Open,
+Receiving Dock Spill - No Signage,2/11/2026,Casey Patel,CA-LAX-001 Los Angeles,Environmental,"Liquid spill near receiving dock, no wet floor signs placed.",Medium,In Progress,
+Pallets Blocking Fire Egress Door 3,2/13/2026,Jordan Kim,CA-LAX-001 Los Angeles,Process,"Pallets stored in fire egress lane by Door 3.",High,Open,
+Forklift-Pedestrian Near-Miss Main Aisle,2/18/2026,Alex Morgan,CA-LAX-001 Los Angeles,Near-Miss,"Forklift passed within 2 feet of pedestrian in main aisle.",Medium,Resolved,"Coaching completed; pedestrian walk path re-marked."
+Pallet Jack Handle Loose - Staging Area,2/9/2026,Sam Taylor,CA-SFO-002 Fresno,Equipment,"Pallet jack handle loose and wobbly in staging area.",Medium,Open,
+Chemical Odor in Cold Storage,2/12/2026,Reese Hall,CA-SFO-002 Fresno,Environmental,"Cold storage area reported chemical odor; source not identified.",High,In Progress,
+Fire Extinguisher Access Blocked Zone B,2/16/2026,Taylor Brooks,CA-SFO-002 Fresno,Process,"Blocked access to fire extinguisher in Zone B.",Low,Resolved,"Area cleared and signage posted."
+Load Shift During Lift - No Injury,2/19/2026,Avery Chen,CA-SFO-002 Fresno,Near-Miss,"Load shifted off pallet during lift, no injury.",Low,Open,
+Dock Leveler Bay 3 Lock Failure,2/7/2026,Chris Park,NV-LV-001 Las Vegas,Equipment,"Dock leveler at Bay 3 intermittently fails to lock.",High,In Progress,
+Zone C Heat - No Water Station,2/12/2026,Pat Quinn,NV-LV-001 Las Vegas,Environmental,"Heat in Zone C reached 99F; no extra water station set.",High,Open,
+Missing Trailer Chocks Door 12,2/14/2026,Devin Ross,NV-LV-001 Las Vegas,Process,"Trailer chocks missing on inbound door 12.",Medium,Resolved,"Replacement chocks issued to dock team."
+Forklift Brake Issue Near Racking,2/20/2026,Jamie Rivera,NV-LV-001 Las Vegas,Near-Miss,"Forklift nearly struck racking after brake squeal.",Medium,Open,
+Conveyor Belt Guard Missing Line 2,2/8/2026,Quinn Blake,NV-RNO-002 Reno,Equipment,"Conveyor belt jam guard missing at Line 2.",Critical,Open,
+Water Leak Near Electrical Panel,2/13/2026,Riley Woods,NV-RNO-002 Reno,Environmental,"Water leak near electrical panel in aisle 5.",Critical,In Progress,
+Missing PPE Sign Battery Station,2/15/2026,Harper Lane,NV-RNO-002 Reno,Process,"PPE sign missing at battery charging station.",Low,Resolved,"Sign replaced and area inspected."
+Pallet Fall from Upper Rack,2/21/2026,Jordan Kim,NV-RNO-002 Reno,Near-Miss,"Pallet fell from upper rack, no injury.",High,Open,
+Forklift P-03 Seatbelt Frayed,2/6/2026,Alex Morgan,AZ-PHX-001 Phoenix,Equipment,"Forklift seatbelt frayed on Unit P-03.",Medium,Open,
+Dust Visibility Issue Aisle 9,2/10/2026,Casey Patel,AZ-PHX-001 Phoenix,Environmental,"Dust buildup reducing visibility in picking aisle 9.",Low,In Progress,
+Exit Door Blocked by Pallets Dock 1,2/17/2026,Sam Taylor,AZ-PHX-001 Phoenix,Process,"Blocked exit door with empty pallets near Dock 1.",Medium,Resolved,"Pallets relocated; reminder issued."
+Pedestrian Slip Near Stretch Wrap,2/22/2026,Avery Chen,AZ-PHX-001 Phoenix,Near-Miss,"Pedestrian slipped near stretch wrap area, no fall.",Low,Open,
+Exposed Battery Charger Cable Station 4,2/5/2026,Reese Hall,AZ-TUC-002 Tucson,Equipment,"Battery charger cable exposed on Station 4.",High,In Progress,
+Zone B Heat - Fans Not Operating,2/11/2026,Devin Ross,AZ-TUC-002 Tucson,Environmental,"Temperature in Zone B at 100F, no cooling fans operating.",High,Open,
+Dock Door Warning Light Out Bay 2,2/16/2026,Pat Quinn,AZ-TUC-002 Tucson,Process,"Dock door warning light out on Bay 2.",Medium,Resolved,"Light replaced; inspection logged."
+Pallet Jack Rolled Into Aisle Traffic,2/23/2026,Chris Park,AZ-TUC-002 Tucson,Near-Miss,"Pallet jack rolled into aisle traffic, no contact.",Medium,Open,

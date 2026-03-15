@@ -1,0 +1,103 @@
+{
+  "title": "Arizona Labor Law Compliance",
+  "version": "1.0",
+  "category": "AZ",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Arizona labor law is generally less prescriptive than California or Nevada in several areas (e.g., no daily overtime requirement, fewer mandatory break rules). However, Arizona has its own minimum wage law, final pay requirements, paid sick leave, and other protections that apply to all Contoso Retail Arizona warehouse team members. Federal law (FLSA) governs overtime and other matters not addressed by Arizona statutes." }
+      ]
+    },
+    {
+      "heading": "Minimum Wage",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Arizona's minimum wage is set by Proposition 206 (the Fair Wages and Healthy Families Act, 2016) and adjusts annually based on the cost of living. Key facts:" },
+        { "type": "bullet_list", "items": [
+          "Arizona's minimum wage exceeds the federal minimum wage ($7.25/hr) and increases annually on January 1.",
+          "The current rate is posted on the break room labor law poster.",
+          "Unlike California and Nevada, Arizona does not have a tiered minimum wage based on employer size or benefits.",
+          "Tipped employees: Employers may take a tip credit, but the base wage plus tips must equal at least the Arizona minimum wage.",
+          "Contoso Retail Arizona pays all hourly team members at or above the Arizona minimum wage."
+        ]}
+      ]
+    },
+    {
+      "heading": "Meal and Rest Breaks",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Arizona does not have a state law mandating meal or rest breaks for adult employees (unlike California and Nevada). Federal FLSA standards apply:" },
+        { "type": "table", "headers": ["Break Type", "Requirement", "Paid?"], "rows": [
+          ["Rest Break (short, ≤20 min)", "Not required by Arizona law; federal law requires pay if provided", "Yes — if employer provides short breaks, they must be paid under FLSA"],
+          ["Meal Period (≥30 min, bona fide)", "Not required by Arizona law; if provided and employee is completely relieved, may be unpaid", "No — if at least 30 min and completely relieved of duties"]
+        ]},
+        { "type": "paragraph", "text": "Contoso Retail policy for Arizona team members (company policy, not state law):" },
+        { "type": "bullet_list", "items": [
+          "Two 10-minute paid rest breaks per 8-hour shift (at approximately 2 hours in and 2 hours before shift end).",
+          "One 30-minute unpaid meal period per shift, taken no later than 5 hours into the shift.",
+          "These are Contoso Retail policy commitments. Arizona law does not mandate them, but they apply to all AZ team members."
+        ]}
+      ]
+    },
+    {
+      "heading": "Overtime Rules",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Arizona follows federal FLSA overtime rules. There is no daily overtime requirement in Arizona (unlike California):" },
+        { "type": "table", "headers": ["Hours Worked", "Pay Rate"], "rows": [
+          ["First 40 hours in a workweek", "Regular rate"],
+          ["Hours above 40 in a workweek", "1.5× regular rate (FLSA)"],
+          ["Hours above 8 in a day", "Regular rate — no daily overtime in Arizona"]
+        ]},
+        { "type": "paragraph", "text": "This is a notable difference for employees who may have transferred from California facilities: working 10 hours in one day in Arizona does not trigger daily overtime. Only hours exceeding 40 in the workweek generate overtime. Contoso Retail Arizona's workweek runs Sunday through Saturday." }
+      ]
+    },
+    {
+      "heading": "Final Pay Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Arizona has specific timelines for final pay under Arizona Revised Statutes (ARS §23-353):" },
+        { "type": "bullet_list", "items": [
+          "If terminated involuntarily: final pay is due by the next regular payday.",
+          "If an employee quits: final pay is due by the next regular payday.",
+          "Accrued but unused PTO/vacation is paid out at separation per Contoso Retail's PTO policy.",
+          "Arizona law allows employers to deduct for certain items (e.g., unreturned equipment, advances) if the employee has signed a written authorization. Supervisors must contact HR before any deductions.",
+          "Supervisors must notify HR immediately upon any team member separation."
+        ]}
+      ]
+    },
+    {
+      "heading": "Paid Sick Time (Arizona)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Under Arizona's Fair Wages and Healthy Families Act (ARS §23-372), employers must provide paid sick time to all employees. For Contoso Retail Arizona facilities:" },
+        { "type": "bullet_list", "items": [
+          "Accrual: 1 hour of paid sick time per 30 hours worked (for employers with 15+ employees, which applies to all Contoso Retail facilities).",
+          "Maximum use per year: 40 hours per year.",
+          "Rollover: Up to 40 hours rolls over annually, but maximum balance cap applies.",
+          "Eligible uses: Employee's own illness/injury/health condition; preventive care; care of a family member; absence related to domestic violence, stalking, or sexual abuse.",
+          "Waiting period: Earned sick time accrues from date of hire and may be used beginning 90 days after hire (or immediately upon mutual agreement).",
+          "Retaliation prohibited: Contoso Retail may not retaliate against an employee for using accrued paid sick time.",
+          "Documentation: Contoso Retail may require reasonable documentation for sick time use of 3 or more consecutive days.",
+          "Payout at termination: Arizona law does NOT require earned sick time to be paid out when an employee separates. Unlike California (where accrued PTO must be paid out at termination) and unlike Contoso Retail's PTO policy (which does pay out accrued vacation), Arizona sick time balances are forfeited upon separation — they are not included in your final paycheck."
+        ]}
+      ]
+    },
+    {
+      "heading": "Child Labor Laws",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "For Contoso Retail Arizona facilities that hire minors (individuals under 18), Arizona child labor laws apply in addition to federal restrictions:" },
+        { "type": "bullet_list", "items": [
+          "Minors under 16 may not operate or clean forklifts, pallet jacks, or other powered industrial equipment.",
+          "Minors under 18 may not operate forklifts or work in hazardous occupations as defined by federal FLSA.",
+          "Work permit (Employment Certificate) is not required in Arizona, but federal FLSA age and hour restrictions apply.",
+          "Contact HR before hiring any worker under 18 to confirm role compliance with federal and Arizona child labor restrictions."
+        ]}
+      ]
+    }
+  ]
+}

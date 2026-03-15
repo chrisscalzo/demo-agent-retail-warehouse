@@ -1,0 +1,103 @@
+{
+  "title": "California Heat Illness Prevention",
+  "version": "1.0",
+  "category": "CA",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview: Cal/OSHA Heat Illness Prevention Standard",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California's Heat Illness Prevention standard (8 CCR §3395) is one of the most comprehensive in the nation and is mandatory for all outdoor and high-heat indoor work environments. For Contoso Retail California warehouses — particularly those with limited climate control, receiving docks, or outdoor loading areas — compliance with §3395 is required." },
+        { "type": "paragraph", "text": "Heat illness includes heat cramps, heat exhaustion, heat syncope (fainting), and the life-threatening heat stroke. Contoso Retail takes a zero-tolerance approach to skipping heat illness prevention procedures." }
+      ]
+    },
+    {
+      "heading": "Written Heat Illness Prevention Plan",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Every California facility must have a written Heat Illness Prevention Plan. The plan is site-specific and must be available to all employees and to Cal/OSHA upon request. Key required elements include:" },
+        { "type": "bullet_list", "items": [
+          "Procedures for providing water (at least 1 quart/hour per employee).",
+          "Procedures for providing shade and cool-down rest periods.",
+          "Acclimatization procedures for new and returning workers.",
+          "High-heat procedures (temperatures at or above 95°F).",
+          "Emergency response procedures for suspected heat illness.",
+          "Employee and supervisor training requirements."
+        ]},
+        { "type": "paragraph", "text": "The Warehouse Manager maintains the written plan and reviews it annually before summer. The plan is posted in the break room and available digitally on the Safety Coordinator's shared drive." }
+      ]
+    },
+    {
+      "heading": "Water Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Cal/OSHA §3395 requires employers to provide potable drinking water to employees working in heat conditions. For Contoso Retail California facilities:" },
+        { "type": "bullet_list", "items": [
+          "A minimum of 1 quart (32 oz) of cool, potable water per employee per hour must be available.",
+          "Water stations must be located as close as practicable to the work area — not only in the break room.",
+          "Water coolers are stocked and maintained by the supervisor at the start of each shift. Refill is the supervisor's responsibility.",
+          "Personal water bottles are permitted and encouraged; the facility provides additional cups at water stations.",
+          "Electrolyte supplements may be provided during extreme heat conditions — check with the Safety Coordinator."
+        ]}
+      ]
+    },
+    {
+      "heading": "Shade and Cool-Down Rest Periods",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Shade is mandatory under Cal/OSHA §3395 when the temperature reaches or exceeds 80°F in the work area. For Contoso Retail California warehouse operations:" },
+        { "type": "bullet_list", "items": [
+          "When outdoor temperature exceeds 80°F, shaded rest areas must be made available within reasonable proximity to the work area.",
+          "Shade areas must accommodate the number of workers on break at one time.",
+          "Cool-down rest: Any employee who feels overheated has the right to take a preventive cool-down rest in the shade for at least 5 minutes. This is not chargeable as a regular break.",
+          "Supervisors must not discourage or prevent employees from taking preventive cool-down rests.",
+          "If an employee shows signs of heat illness during a cool-down rest, treat as a potential medical emergency — monitor the employee for at least 15 minutes before returning to work."
+        ]}
+      ]
+    },
+    {
+      "heading": "Acclimatization Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Acclimatization — the process of gradually adapting to heat — is required for new workers and for workers returning after 10+ days away. Studies show that most heat-related deaths occur in the first few days of working in heat." },
+        { "type": "numbered_list", "items": [
+          "New workers and returning workers must not be assigned to full workload in hot conditions immediately.",
+          "Day 1–3: Assign to no more than 60% of normal workload in the hottest conditions.",
+          "Day 4–5: Increase to 80% of normal workload.",
+          "Day 6+: Full workload permitted, with continued monitoring.",
+          "Supervisors must check on newly acclimatizing workers more frequently during the acclimatization period.",
+          "Acclimatization status is tracked on the shift staffing sheet during heat season (May–October)."
+        ]}
+      ]
+    },
+    {
+      "heading": "High-Heat Procedures (95°F and Above)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "When outdoor temperature reaches or is predicted to reach 95°F, Cal/OSHA §3395 requires enhanced high-heat procedures. These apply to all outdoor work areas and any indoor work area where temperatures may approach or exceed 95°F (e.g., receiving docks during summer):" },
+        { "type": "bullet_list", "items": [
+          "Supervisor or designee must observe workers for signs of heat illness at least every hour.",
+          "Workers must be reminded to drink water frequently (every 15–20 minutes).",
+          "Mandatory pre-shift briefing on heat illness prevention and emergency response.",
+          "Ensure communication devices (radio, phone) are functional for emergency contact.",
+          "Identify the name of the employee designated to contact emergency services if heat illness occurs.",
+          "Consider schedule modifications (shift earlier start, extended rest periods, rotation of hot tasks)."
+        ]}
+      ]
+    },
+    {
+      "heading": "Signs of Heat Illness & Emergency Response",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "All employees and supervisors must be able to recognize the signs of heat illness and know how to respond:" },
+        { "type": "table", "headers": ["Condition", "Signs", "Immediate Action"], "rows": [
+          ["Heat Cramps", "Muscle pain or spasms, often in abdomen, arms, or legs", "Move to cool area; drink water or sports drink; rest; do not return to hot work for a few hours"],
+          ["Heat Exhaustion", "Heavy sweating, weakness, dizziness, nausea, headache, pale cool clammy skin", "Move to cool area; loosen clothing; apply cool wet cloths; drink cool water; if not improved in 15 min — call 911"],
+          ["Heat Stroke (EMERGENCY)", "High body temp (103°F+), hot red dry or damp skin, rapid pulse, confusion, unconsciousness", "CALL 911 IMMEDIATELY. Cool the person by any means (ice packs, cool water immersion, wet towels). This is life-threatening."]
+        ]},
+        { "type": "paragraph", "text": "Never leave a worker with suspected heat stroke alone. Stay with them until emergency services arrive. Do not give fluids to an unconscious person." }
+      ]
+    }
+  ]
+}

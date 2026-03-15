@@ -1,0 +1,114 @@
+{
+  "title": "Arizona Heat Illness Prevention",
+  "version": "1.0",
+  "category": "AZ",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview: Arizona's Extreme Heat Environment",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Arizona presents some of the most extreme heat conditions in the continental United States. Phoenix regularly records temperatures exceeding 110°F during summer months, and even Tucson routinely exceeds 100°F. Arizona follows federal OSHA's approach to heat safety, governed by the General Duty Clause and the forthcoming federal Heat Illness Prevention in Outdoor and Indoor Work Settings Rule (NPRM). Contoso Retail Arizona facilities implement comprehensive heat illness prevention programs that align with federal OSHA guidance and exceed minimum requirements given Arizona's extreme conditions." },
+        { "type": "paragraph", "text": "An additional unique hazard in Arizona is the monsoon season (approximately June 15 – September 30), which brings sudden high winds, dust storms (haboobs), lightning, and flash flooding. These events require specific protocols in addition to standard heat illness prevention measures." }
+      ]
+    },
+    {
+      "heading": "Arizona Heat Risk by Location",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Location", "Avg Summer High", "Record High", "Risk Level", "Enhanced Protocol Threshold"], "rows": [
+          ["Phoenix (AZ-PHX-001)", "106–115°F", "122°F (1990)", "Extreme", "95°F — year-round vigilance May–Oct"],
+          ["Tucson (AZ-TUC-002)", "99–107°F", "117°F", "High-Extreme", "95°F — May through September"]
+        ]}
+      ]
+    },
+    {
+      "heading": "Federal OSHA Heat Illness NPRM Alignment",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail Arizona has proactively aligned with the requirements of the federal OSHA Heat Illness Prevention NPRM (proposed rule), which includes the following requirements that Arizona facilities implement now:" },
+        { "type": "bullet_list", "items": [
+          "Written Heat Illness Prevention Plan specific to each Arizona facility.",
+          "Provision of potable drinking water (at least 1 quart/hour/employee in heat conditions).",
+          "Rest breaks in shaded or air-conditioned areas.",
+          "Acclimatization procedures for new and returning workers.",
+          "Emergency response plan for heat illness.",
+          "Annual training for all employees and supervisors on heat illness prevention."
+        ]}
+      ]
+    },
+    {
+      "heading": "Standard Heat Protocols (95°F–109°F)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "When outdoor ambient temperature reaches or is forecast to reach 95°F — which occurs routinely from May through October at Arizona facilities — Contoso Retail initiates the following standard heat protocols. These apply to all outdoor work areas and any indoor area where temperature may reach 95°F (e.g., non-climate-controlled dock areas):" },
+        { "type": "bullet_list", "items": [
+          "Pre-shift heat briefing: Supervisor announces the day's forecast temperature at huddle, confirms water station status, and reviews who to call if someone shows signs of heat illness.",
+          "Water: Minimum 1 quart of cool, potable water per employee per hour available within the work area — not just in the break room.",
+          "Shade and cool-down access: Air-conditioned break room and dock office are designated cool-down areas; any employee feeling overheated may take a preventive cool-down rest without penalty.",
+          "Buddy system: Workers in outdoor areas pair up and check on each other at minimum every 30 minutes.",
+          "Weather monitoring: Supervisor checks National Weather Service forecast at start of each shift and posts the day's heat category (Caution / Extreme Caution / Danger / Extreme Danger) on the shift whiteboard.",
+          "Schedule management: Heaviest outdoor physical tasks front-loaded to early morning (before 11 AM) where operationally feasible."
+        ]},
+        { "type": "paragraph", "text": "Note: Unlike California (which has a regulatory requirement for shade at 80°F) and Nevada (which triggers enhanced protocols at 90°F), Arizona's formal protocol threshold is 95°F — reflecting that baseline temperatures in Arizona are routinely above the thresholds that would trigger enhanced protocols in other states. Arizona workers should treat any outdoor work during summer months with the same vigilance as high-heat conditions in other climates." }
+      ]
+    },
+    {
+      "heading": "Extreme Heat Protocols (110°F+)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Given Arizona's extreme temperatures, Contoso Retail has established enhanced protocols for days when ambient temperature reaches or is forecast to exceed 110°F. These protocols apply primarily to outdoor work (receiving dock, truck court, outdoor loading areas):" },
+        { "type": "numbered_list", "items": [
+          "Pre-shift announcement: Supervisor announces the forecast temperature at huddle and reviews emergency response procedures.",
+          "Water: Additional water coolers deployed at dock doors — minimum 2 quarts/hour/employee for outdoor work at 110°F+.",
+          "Shade/cooling: All team members performing outdoor tasks may access the air-conditioned break room or dock office for cool-down as needed — no minimum interval required.",
+          "Work rotation: Outdoor tasks are rotated at 20-minute intervals during extreme heat. No worker performs continuous outdoor work for more than 20 minutes at 110°F+.",
+          "Buddy check: Mandatory check-in with buddy every 20 minutes during outdoor work in extreme heat.",
+          "Early schedule: Where operationally feasible, all outdoor work is completed before 10 AM during extreme heat events.",
+          "Misting fans: Deployed at dock entry points during extreme heat events."
+        ]}
+      ]
+    },
+    {
+      "heading": "Monsoon Hazard Awareness",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "The Arizona monsoon season (June 15 – September 30) creates additional hazards beyond heat that all Arizona team members must be prepared for:" },
+        { "type": "table", "headers": ["Monsoon Hazard", "Risk", "Protocol"], "rows": [
+          ["Haboob (Dust Storm)", "Zero or near-zero visibility; respiratory hazard; flying debris", "Suspend all outdoor work immediately; move vehicles and equipment inside or to sheltered areas; shelter indoors until storm passes; N95 masks available at supply station"],
+          ["Lightning", "Electrocution; fire", "Suspend all outdoor work at first lightning within 10 miles (use weather alert system); do not resume until 30 minutes after last lightning"],
+          ["Flash Flooding", "Flooding of low-lying areas; dock flooding risk", "Monitor weather alerts; do not cross flooded areas on foot or in vehicle; contact supervisor if dock area shows standing water"],
+          ["High Winds", "Falling objects; dock door damage; trailer instability", "Secure unsheltered pallets and equipment; verify trailer wheel chocks and restraints; close dock doors if wind exceeds 30 mph"]
+        ]},
+        { "type": "paragraph", "text": "Weather alert notifications are sent via Teams during monsoon season when National Weather Service issues a watch or warning for the facility's county. Supervisors monitor the NWS mobile app during monsoon season." }
+      ]
+    },
+    {
+      "heading": "Acclimatization (Arizona)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Arizona's extreme heat makes acclimatization especially critical. Research shows that most heat-related fatalities occur in workers during their first few days on the job. Contoso Retail Arizona's acclimatization schedule is more conservative than the general Contoso Retail standard:" },
+        { "type": "table", "headers": ["Day", "Max Time in Heat Exposure", "Action if Overheated"], "rows": [
+          ["Day 1", "15% of shift in hottest outdoor conditions", "Immediate cool-down; contact supervisor"],
+          ["Day 2", "30% of shift", "Immediate cool-down; contact supervisor"],
+          ["Day 3", "50% of shift", "Cool-down; contact supervisor"],
+          ["Day 4", "65% of shift", "Cool-down; contact supervisor"],
+          ["Day 5", "80% of shift", "Monitor closely"],
+          ["Day 6+", "Full exposure — with buddy monitoring", "Normal protocols"]
+        ]}
+      ]
+    },
+    {
+      "heading": "Signs of Heat Illness & Emergency Response",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Condition", "Symptoms", "Response"], "rows": [
+          ["Heat Cramps", "Muscle spasms, heavy sweating during or after work", "Cool area; hydrate; rest; do not return to heat work for several hours"],
+          ["Heat Exhaustion", "Heavy sweating, cold/pale/clammy skin, weakness, nausea, headache, dizziness", "Move to A/C; remove excess clothing; cool wet cloths on neck/armpits; hydrate; call 911 if no improvement in 15 min"],
+          ["Heat Stroke", "High body temp (103°F+), hot skin (dry or wet), confusion, rapid pulse, possible unconsciousness", "CALL 911 IMMEDIATELY. Cool rapidly by any means — ice packs to neck/armpits/groin, cool water; do not leave person alone"]
+        ]},
+        { "type": "paragraph", "text": "AZ-specific note: In Arizona's dry heat, sweating evaporates so rapidly that workers may not feel as wet or uncomfortable as they would in a humid environment — but are still at serious risk of heat stroke. Never discount heat illness symptoms because 'it doesn't feel that hot' or 'I'm used to the heat.'" }
+      ]
+    }
+  ]
+}

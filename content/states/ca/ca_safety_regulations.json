@@ -1,0 +1,89 @@
+{
+  "title": "California Safety Regulations Overview",
+  "version": "1.0",
+  "category": "CA",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview: Cal/OSHA and the California State Plan",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California operates its own OSHA program — known as Cal/OSHA — under an OSHA-approved State Plan. This means that Cal/OSHA standards apply to Contoso Retail's California warehouses instead of (and often in addition to) federal OSHA standards. Importantly, Cal/OSHA regulations are frequently more stringent than federal OSHA requirements." },
+        { "type": "paragraph", "text": "The Division of Occupational Safety and Health (DOSH), commonly called Cal/OSHA, is the enforcement arm. DOSH conducts inspections, investigates complaints and incidents, and issues citations and penalties for violations." }
+      ]
+    },
+    {
+      "heading": "Key Cal/OSHA Regulations for Warehouse Operations",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Regulation", "Cal/OSHA Reference", "Summary"], "rows": [
+          ["Injury and Illness Prevention Program (IIPP)", "8 CCR §3203", "Every California employer must have a written IIPP. Cal/OSHA can inspect the IIPP at any time."],
+          ["Heat Illness Prevention", "8 CCR §3395", "Mandatory written plan, shade required at 80°F, cool-down rest periods. See CA Heat Illness Prevention document."],
+          ["Powered Industrial Trucks", "8 CCR §3650", "Operator training and certification required; stricter maintenance recordkeeping than federal."],
+          ["Emergency Action Plan", "8 CCR §3220", "Written EAP required for all facilities with 10+ employees."],
+          ["Hazard Communication", "8 CCR §5194", "Mirrors federal HazCom but includes Proposition 65 additional warning requirements."],
+          ["Ergonomics (Repetitive Motion)", "8 CCR §5110", "Cal/OSHA requires an ergonomics program for repetitive motion injuries affecting 2+ workers in the same job."],
+          ["Personal Protective Equipment", "8 CCR §3380", "Employer must conduct PPE hazard assessment and certify it in writing."]
+        ]}
+      ]
+    },
+    {
+      "heading": "Injury and Illness Prevention Program (IIPP)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California's IIPP requirement (8 CCR §3203) is broader and more detailed than federal OSHA's equivalent. Every Contoso Retail California facility must maintain a written IIPP that includes:" },
+        { "type": "bullet_list", "items": [
+          "A responsible person or persons with authority and responsibility for the IIPP.",
+          "A system for ensuring employee compliance with safe and healthy work practices.",
+          "A system for communicating with employees about health and safety matters — including anonymous reporting.",
+          "Procedures for identifying and evaluating workplace hazards.",
+          "Procedures for investigating occupational injuries and illnesses.",
+          "Methods for correcting unsafe or unhealthy conditions in a timely manner.",
+          "Training and instruction provisions for all employees, including supervisors."
+        ]},
+        { "type": "paragraph", "text": "The Warehouse Manager is the designated IIPP Program Administrator for each California facility. The IIPP is reviewed and updated annually and after any serious incident." }
+      ]
+    },
+    {
+      "heading": "Cal/OSHA Reporting Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California reporting timelines are stricter than federal OSHA:" },
+        { "type": "table", "headers": ["Event", "Federal OSHA Deadline", "Cal/OSHA Deadline"], "rows": [
+          ["Fatality", "8 hours", "Immediately (as soon as practicable)"],
+          ["Inpatient hospitalization", "24 hours", "Immediately"],
+          ["Amputation or loss of eye", "24 hours", "Immediately"],
+          ["Serious injury (any hospitalization)", "Not required under federal", "Immediately (8 CCR §342)"]
+        ]},
+        { "type": "paragraph", "text": "Report Cal/OSHA emergencies to: Cal/OSHA 24-hour emergency line: 1-800-963-9424. The Safety Coordinator must also notify the Warehouse Manager and Regional Director immediately for any reportable incident." }
+      ]
+    },
+    {
+      "heading": "Cal/OSHA Employee Rights",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California workers have all federal OSHA rights plus additional California-specific protections:" },
+        { "type": "bullet_list", "items": [
+          "Right to request a Cal/OSHA inspection anonymously without employer notification.",
+          "Right to file a complaint with the Labor Commissioner if retaliated against for safety activity.",
+          "Right to refuse work that poses an imminent danger of serious injury or death, with specific Cal/OSHA-defined protections for that refusal.",
+          "Right to access the facility's IIPP, injury/illness logs, and exposure records.",
+          "California Labor Code §6310 provides additional anti-retaliation protections beyond federal OSHA."
+        ]}
+      ]
+    },
+    {
+      "heading": "Ergonomics Program (California-Specific)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "California's Repetitive Motion Injury (RMI) standard (8 CCR §5110) requires Contoso Retail to implement an ergonomics program when a repetitive motion injury has been diagnosed by a licensed physician in two or more workers in the same job type within a 12-month period." },
+        { "type": "bullet_list", "items": [
+          "The program must include a worksite evaluation to identify and correct risk factors.",
+          "Control measures must be implemented (rotation, mechanical assists, workstation redesign).",
+          "Affected employees must receive training on ergonomic risk factors and injury recognition.",
+          "The Safety Coordinator tracks RMI diagnoses and triggers a program review if the threshold is met."
+        ]}
+      ]
+    }
+  ]
+}

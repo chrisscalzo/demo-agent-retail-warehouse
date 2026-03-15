@@ -1,0 +1,103 @@
+{
+  "title": "PPE Policy",
+  "version": "1.0",
+  "category": "General",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Purpose",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Personal Protective Equipment (PPE) is the last line of defense against workplace hazards. Contoso Retail provides all required PPE at no cost to team members. Wearing PPE as required is mandatory — non-compliance is a safety violation subject to disciplinary action. This policy defines required PPE by zone, standards for each PPE type, and procedures for inspection and replacement." }
+      ]
+    },
+    {
+      "heading": "Required PPE by Zone",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Zone", "Required PPE"], "rows": [
+          ["Zone A – Receiving Dock", "Hi-vis vest, steel-toe footwear, safety glasses, gloves (loading), hard hat (when overhead work in progress)"],
+          ["Zone B – Staging Area", "Hi-vis vest, steel-toe footwear, safety glasses"],
+          ["Zone C – Storage Aisles", "Hi-vis vest, steel-toe footwear, safety glasses"],
+          ["Zone D – Pick & Pack", "Hi-vis vest, steel-toe footwear, safety glasses, cut-resistant gloves (box cutting)"],
+          ["Zone E – Outbound Dock", "Hi-vis vest, steel-toe footwear, safety glasses, gloves (loading)"],
+          ["Zone F – Break Room", "No PPE required (personal area)"],
+          ["Zone G – Office/Manager", "No PPE required (unless entering floor zones)"],
+          ["Battery Charging Station", "Chemical-resistant gloves, safety glasses with side shields, face shield available"],
+          ["Maintenance / LOTO Work", "Task-specific PPE as specified in the LOTO procedure card"]
+        ]}
+      ]
+    },
+    {
+      "heading": "Hard Hat Standards",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Hard hats are required in the following situations, even in zones where they are not routine:" },
+        { "type": "bullet_list", "items": [
+          "During any overhead work (installing racking, replacing lights, working above the 6-foot level).",
+          "In areas where falling objects are a known risk (active receiving operations with high stack loads).",
+          "Whenever directed by a supervisor based on a hazard assessment.",
+          "Hard hats must meet ANSI Z89.1 Type I or Type II, Class E (electrical) minimum standard.",
+          "Inspect hard hat shell and suspension before each use. Replace immediately if cracked, dented, or if suspension is damaged.",
+          "Hard hats must not be modified (drilling holes, painting, applying stickers over cracks). Wear hard hats brim-forward unless design requires otherwise."
+        ]}
+      ]
+    },
+    {
+      "heading": "Hi-Vis Vest Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "High-visibility safety vests are required for all personnel on the warehouse floor (Zones A–E). This includes visitors, contractors, and managers conducting floor walks." },
+        { "type": "bullet_list", "items": [
+          "Minimum standard: ANSI/ISEA 107 Class 2 (yellow or orange with reflective strips).",
+          "Vests must be worn over outer garments, fully zipped or clasped, not unbuttoned.",
+          "Vests are inspected quarterly by the Safety Coordinator. Worn or faded vests are replaced.",
+          "Visitors and contractors are provided a loaner vest from the security desk at Zone G."
+        ]}
+      ]
+    },
+    {
+      "heading": "Gloves",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Gloves must be appropriate for the task and hazard:" },
+        { "type": "table", "headers": ["Task", "Required Glove Type"], "rows": [
+          ["General material handling (boxes, pallets)", "General-purpose work gloves (leather or synthetic)"],
+          ["Box cutting / blades", "Cut-resistant gloves (ANSI A2 minimum)"],
+          ["Chemical handling (cleaning agents, battery fluid)", "Chemical-resistant nitrile or neoprene gloves"],
+          ["Loading/unloading (dock, heavy goods)", "Heavy-duty work gloves with grip"],
+          ["Cold storage areas (if applicable)", "Insulated gloves rated for temperature"]
+        ]},
+        { "type": "paragraph", "text": "Gloves must not be worn near conveyor drive belts or rotating machinery (entanglement risk). Remove gloves before operating the touch screen WMS terminals." }
+      ]
+    },
+    {
+      "heading": "Steel-Toe Footwear",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "All team members working on the warehouse floor must wear ASTM F2413-rated safety footwear with steel or composite toe protection." },
+        { "type": "bullet_list", "items": [
+          "Footwear must be slip-resistant and provide ankle support.",
+          "Contoso Retail provides a $100 annual footwear reimbursement through HR. Receipts must be submitted within 60 days of purchase.",
+          "Open-toe shoes, sandals, athletic shoes without toe protection, and heels are prohibited on the warehouse floor.",
+          "Report footwear that no longer meets safety standards (worn sole, cracked toe cap) to your supervisor for early reimbursement eligibility."
+        ]}
+      ]
+    },
+    {
+      "heading": "PPE Inspection & Replacement",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "All PPE must be inspected before each use. Defective PPE must be taken out of service immediately." },
+        { "type": "bullet_list", "items": [
+          "PPE replacement requests are submitted to your supervisor. Replacement PPE is available at the PPE station (Zone F, supply closet).",
+          "Hard hats are replaced every 5 years from manufacture date (date stamped inside the shell), or immediately after any impact.",
+          "Safety glasses are replaced when lenses are scratched, pitted, or the frame is warped.",
+          "Vests are replaced when reflective strips are cracked, peeling, or when fluorescent material has significantly faded.",
+          "Gloves are replaced when holes, tears, or soaking-through is observed — do not attempt to repair gloves.",
+          "Supervisors conduct monthly PPE compliance audits and log results in the safety inspection record."
+        ]}
+      ]
+    }
+  ]
+}

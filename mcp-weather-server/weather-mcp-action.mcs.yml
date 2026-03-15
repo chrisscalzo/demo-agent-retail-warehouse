@@ -1,0 +1,22 @@
+mcs.metadata:
+  componentName: Weather MCP
+  description: "Description: Provides real-time weather and short-range forecast data for warehouse locations using city, ZIP, or place name inputs. Use it to support shift planning, heat safety checks, and weather-related operational decisions across CA, NV, and AZ facilities."
+kind: TaskDialog
+modelDisplayName: Weather MCP
+modelDescription: Provides real-time weather and short-range forecast data for warehouse locations using city, ZIP, or place name inputs. Use it to support shift planning, heat safety checks, and weather-related operational decisions across CA, NV, and AZ facilities.
+outputs:
+  - propertyName: Response
+
+action:
+  kind: InvokeExternalAgentTaskAction
+  connectionReference: auto_agent_poQn2.shared_cr3b2-5fweather-20mcp-5f0cb13dc375be756c.8aacc09ad9e7442ba79be15db4d0efbe
+  connectionProperties:
+    mode: Invoker
+
+  operationDetails:
+    kind: ModelContextProtocolMetadata
+    operationId: invoke
+    tools:
+      kind: UseAllTools
+
+outputMode: All

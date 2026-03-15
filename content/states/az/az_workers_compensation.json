@@ -1,0 +1,97 @@
+{
+  "title": "Arizona Workers' Compensation",
+  "version": "1.0",
+  "category": "AZ",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Arizona's workers' compensation system is administered by the Industrial Commission of Arizona (ICA) under Arizona Revised Statutes (ARS) Title 23, Chapter 6. Contoso Retail Arizona facilities maintain WC coverage through the Arizona State Compensation Fund (SCF Arizona) and/or approved private carriers. All Arizona employers are required to carry workers' compensation coverage." },
+        { "type": "paragraph", "text": "Arizona's WC system is a 'no-fault' system: benefits are available to injured workers regardless of who caused the injury, and workers generally cannot sue the employer for work injuries in exchange for these guaranteed benefits." }
+      ]
+    },
+    {
+      "heading": "Reporting a Work Injury: 10-Day Reporting Rule",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Arizona's employee reporting deadline is among the most lenient in the nation at 10 days, but Contoso Retail strongly encourages immediate reporting. Under ARS §23-908, the injured worker must notify the employer within 10 days of the injury." },
+        { "type": "table", "headers": ["Step", "Action", "Timeline"], "rows": [
+          ["Employee reports to supervisor", "Verbal notification of injury or illness", "Immediately — do not delay"],
+          ["Employee reporting deadline", "Written or verbal notice to employer", "Within 10 days of injury (ARS §23-908)"],
+          ["Employer files Report of Injury", "Employer submits Report of Injury to the WC carrier and ICA", "Within 10 days of receiving notice (ARS §23-1062)"],
+          ["Medical authorization", "Employer authorizes initial medical care", "Contoso Retail authorizes immediately — do not delay care"]
+        ]},
+        { "type": "paragraph", "text": "Even though Arizona law allows 10 days, reporting immediately is critical: delayed reporting can hinder the investigation, delay medical care, and complicate the claim. Never discourage or delay a team member from reporting a work injury." }
+      ]
+    },
+    {
+      "heading": "Employer-Directed Care: First 90 Days",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "A key feature of Arizona's workers' compensation system is employer-directed care during the first 90 days of treatment. This differs significantly from California (employee choice from MPN) and Nevada (panel with early employee choice):" },
+        { "type": "bullet_list", "items": [
+          "During the first 90 days from the date of injury, Contoso Retail (through the WC carrier) directs the injured worker's medical care to an approved provider.",
+          "Contoso Retail maintains an approved provider list for each Arizona facility, posted on the safety bulletin board.",
+          "For emergency treatment: the worker may seek care at any emergency facility. Employer-directed care applies to ongoing non-emergency treatment.",
+          "After 90 days: the worker may petition the ICA for a change of physician.",
+          "Workers who seek unauthorized care during the first 90 days may be responsible for those medical costs. Always use the approved provider list unless it is a genuine emergency."
+        ]}
+      ]
+    },
+    {
+      "heading": "Benefit Types",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Benefit", "Description", "Arizona Details"], "rows": [
+          ["Medical Benefits", "All necessary and reasonable medical care", "Directed care first 90 days; no employee cost-sharing for authorized treatment"],
+          ["Temporary Disability", "Wage replacement while unable to work or on restricted duty", "66 2/3% of pre-injury average monthly wage; no benefit for first 7 days unless disabled 14+ days"],
+          ["Permanent Partial Disability (PPD)", "Benefits for permanent but partial impairment", "Scheduled injury award (ARS §23-1044) or unscheduled permanent partial disability"],
+          ["Permanent Total Disability (PTD)", "Benefits for inability to work at any employment", "66 2/3% of average monthly wage, paid for life"],
+          ["Vocational Rehabilitation", "Assistance returning to the workforce", "Available through ICA's Rehabilitation Unit if medically appropriate"],
+          ["Death Benefits", "Support for dependents of a worker killed on the job", "Percentage of deceased's wages; burial expense reimbursement up to Arizona rate schedule"]
+        ]}
+      ]
+    },
+    {
+      "heading": "Return-to-Work Program",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Contoso Retail Arizona actively manages return-to-work (RTW) for injured team members. The goal is to return workers to meaningful employment as quickly as their medical condition permits:" },
+        { "type": "bullet_list", "items": [
+          "HR contacts the injured worker within 3 business days to discuss RTW planning.",
+          "Modified duty (light duty) opportunities are identified in coordination with the injured worker's treating physician.",
+          "If modified duty is offered within the physician's restrictions and the worker refuses, temporary disability benefits may be reduced or suspended.",
+          "Arizona law (ARS §23-1044) provides an incentive: employers who offer modified duty may reduce their WC premium costs through experience modification benefits.",
+          "RTW status is tracked in the WC tracking system and reviewed by the Warehouse Manager weekly."
+        ]}
+      ]
+    },
+    {
+      "heading": "Annual Training Requirement",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Arizona does not have a statute requiring annual workers' compensation training for employees, unlike Nevada (NRS 616B.121 mandates annual WC training for all Nevada employees). Federal OSHA also does not impose an annual WC training mandate." },
+        { "type": "paragraph", "text": "Contoso Retail Arizona provides workers' compensation awareness information to all new hires during the Day 1 Safety Orientation. This covers:" },
+        { "type": "bullet_list", "items": [
+          "How to report a work injury (verbal report to supervisor immediately).",
+          "The 10-day employee reporting deadline under ARS §23-908.",
+          "How to access the approved provider list for medical treatment.",
+          "What benefits are available (medical, temporary disability, RTW program).",
+          "Anti-retaliation protections under ARS §23-1501."
+        ]},
+        { "type": "paragraph", "text": "While Arizona law does not require this training to be repeated annually, Contoso Retail includes a WC refresher as part of the annual safety training calendar. This is company policy, not an Arizona legal requirement. Compare: Nevada supervisors must document annual WC training completion and Nevada OSHA may request those records during an inspection — that legal obligation does not apply in Arizona." }
+      ]
+    },
+    {
+      "heading": "Anti-Discrimination & Retaliation",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Arizona prohibits employers from discriminating against employees for filing a workers' compensation claim or exercising WC rights (ARS §23-1501). Prohibited actions include termination, demotion, or adverse treatment linked to a WC claim." },
+        { "type": "paragraph", "text": "Arizona's at-will employment doctrine generally allows termination for any lawful reason, but WC retaliation is not a lawful reason. An employee terminated in connection with a WC claim may file a wrongful termination lawsuit under ARS §23-1501, which allows recovery of lost wages, reinstatement, and other damages." },
+        { "type": "paragraph", "text": "Any suspected retaliation should be reported immediately to HR and the Industrial Commission of Arizona: (602) 542-4661." }
+      ]
+    }
+  ]
+}

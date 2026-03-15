@@ -1,0 +1,101 @@
+{
+  "title": "Nevada Heat Illness Prevention",
+  "version": "1.0",
+  "category": "NV",
+  "audience": ["Team Member", "Supervisor", "Manager"],
+  "sections": [
+    {
+      "heading": "Overview: Nevada Heat Hazards",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada is one of the hottest states in the US, with Las Vegas regularly exceeding 110°F during summer and Reno experiencing significant summer heat as well. While Nevada does not currently have a specific heat illness prevention regulation equivalent to California's §3395, Nevada OSHA actively enforces heat safety requirements under the General Duty Clause (requiring employers to provide a workplace free from recognized hazards likely to cause serious harm or death)." },
+        { "type": "paragraph", "text": "Contoso Retail Nevada facilities follow robust heat illness prevention protocols aligned with federal OSHA Heat Illness NPRM guidance and Nevada OSHA's published heat stress guidelines (NAC 618 general provisions). All Nevada supervisors must complete heat illness prevention training annually." }
+      ]
+    },
+    {
+      "heading": "Heat Risk Assessment by Location",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Location", "Summer High Temp", "Risk Level", "Enhanced Protocol Threshold"], "rows": [
+          ["Las Vegas (NV-LV-001)", "105–115°F", "Extreme", "90°F ambient / always in summer months"],
+          ["Reno (NV-RNO-002)", "90–100°F", "High", "90°F ambient"]
+        ]},
+        { "type": "paragraph", "text": "Nevada OSHA heat stress guidelines recommend enhanced controls when heat index (combination of temperature and humidity) reaches 91°F+. In Nevada's dry climate, low humidity somewhat reduces the heat index compared to humid states, but dry heat at extreme temperatures is still life-threatening." }
+      ]
+    },
+    {
+      "heading": "Written Heat Illness Prevention Plan (Nevada)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Unlike California — which mandates a written Heat Illness Prevention Plan by regulation (8 CCR §3395) — Nevada does not have a specific heat illness regulation that legally requires a written plan. Nevada OSHA enforces heat safety through the General Duty Clause and NAC 618 general provisions, relying on guidance rather than a prescriptive written-plan requirement." },
+        { "type": "paragraph", "text": "Despite the absence of a Nevada-specific written plan mandate, Contoso Retail voluntarily maintains a written Heat Illness Prevention Plan at each Nevada facility as a best practice. The plan is reviewed before each summer season and is available to employees and Nevada OSHA upon request. Key elements include:" },
+        { "type": "bullet_list", "items": [
+          "Identification of heat risk zones within the facility (outdoor dock areas, non-climate-controlled staging).",
+          "Water and shade provision procedures.",
+          "Acclimatization schedule for new and returning workers.",
+          "Emergency response procedures for suspected heat illness.",
+          "Supervisor monitoring responsibilities during hot weather.",
+          "Annual training record for all team members."
+        ]},
+        { "type": "paragraph", "text": "Bottom line for supervisors: California requires the plan by law and Cal/OSHA will cite you without it. In Nevada, the plan is voluntary but strongly advisable — Nevada OSHA can still cite under the General Duty Clause if heat illness occurs and controls were absent." }
+      ]
+    },
+    {
+      "heading": "Nevada Heat Stress Guidelines (NAC 618 Guidance)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Nevada OSHA guidance identifies the following heat stress control requirements for employers with workers in hot conditions:" },
+        { "type": "bullet_list", "items": [
+          "Provide potable drinking water at no cost — minimum 1 quart per hour per worker in hot conditions.",
+          "Provide shaded or air-conditioned rest areas accessible to all workers during breaks.",
+          "Implement acclimatization protocols for new and returning workers.",
+          "Establish emergency response procedures for suspected heat illness.",
+          "Train all workers and supervisors on heat illness recognition and prevention.",
+          "Monitor weather conditions daily and communicate heat risk to workers before each shift."
+        ]}
+      ]
+    },
+    {
+      "heading": "90°F+ Protocol (Nevada)",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "When outdoor temperatures reach or are forecast to reach 90°F, Contoso Retail Nevada facilities initiate the following enhanced heat safety protocols:" },
+        { "type": "numbered_list", "items": [
+          "Pre-shift heat safety briefing: Supervisors review heat illness signs, water requirements, and emergency response at the start of every shift.",
+          "Cooling stations: At least two portable evaporative coolers or fans positioned at receiving dock and outbound dock areas.",
+          "Water distribution: Supervisors confirm water stations are stocked (coolers with ice water) within the work area before shift start. Electrolyte drink mix available upon request.",
+          "Buddy check system: Workers pair up and are responsible for monitoring each other for signs of heat illness. Report concerns immediately.",
+          "Increased break frequency: Supervisors may authorize additional 5-minute rest breaks during extreme heat periods without productivity penalty.",
+          "Schedule adjustment: Where operationally feasible, the heaviest outdoor work is front-loaded to early morning hours (before 10 AM) during heat advisories."
+        ]}
+      ]
+    },
+    {
+      "heading": "Acclimatization Requirements",
+      "level": 1,
+      "content": [
+        { "type": "paragraph", "text": "Acclimatization is critical in Nevada's climate. New workers and those returning after 1+ week away during summer must follow the acclimatization schedule:" },
+        { "type": "table", "headers": ["Day", "Maximum Time in Hot Work Area", "Supervisor Check-In"], "rows": [
+          ["Day 1", "20% of shift", "Every 30 minutes"],
+          ["Day 2", "40% of shift", "Every hour"],
+          ["Day 3", "60% of shift", "Every hour"],
+          ["Day 4", "80% of shift", "Every 2 hours"],
+          ["Day 5+", "Full shift", "Normal schedule"]
+        ]},
+        { "type": "paragraph", "text": "During acclimatization, workers are assigned to cooler indoor tasks for the remainder of their shift. Supervisors track acclimatization status on the weekly staffing sheet." }
+      ]
+    },
+    {
+      "heading": "Signs of Heat Illness & Emergency Response",
+      "level": 1,
+      "content": [
+        { "type": "table", "headers": ["Condition", "Signs", "Immediate Action"], "rows": [
+          ["Heat Cramps", "Muscle spasms in legs, abdomen, or arms", "Move to cool area; drink water or electrolyte drink; rest; do not return to hot work for several hours"],
+          ["Heat Exhaustion", "Heavy sweating, weakness, nausea, headache, pale skin, dizziness, fainting", "Move to cool/shaded area; loosen clothing; apply cool damp cloths to neck, armpits, groin; hydrate; call 911 if no improvement in 15 minutes"],
+          ["Heat Stroke", "Hot red skin (dry or damp), confusion, slurred speech, unconsciousness, temp above 104°F", "CALL 911 IMMEDIATELY. This is a medical emergency. Aggressively cool the worker while waiting for EMS."]
+        ]},
+        { "type": "paragraph", "text": "In Nevada's dry heat, sweating may evaporate quickly — workers may not realize how severely dehydrated they are. Encourage frequent drinking even when workers say they are 'not thirsty.' Thirst is a late indicator of dehydration." }
+      ]
+    }
+  ]
+}

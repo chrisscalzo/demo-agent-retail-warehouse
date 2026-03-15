@@ -1,0 +1,11 @@
+.token_cache.json
+.token_cache_dataverse.json
+~$*.docx
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+.claude/
