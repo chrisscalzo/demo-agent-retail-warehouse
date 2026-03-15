@@ -34,9 +34,9 @@ import msal
 import requests
 
 # ── CONFIG ─────────────────────────────────────────────────────────────────────
-TENANT_ID  = "2540c676-79f2-4c66-894b-0a60644507f0"   # Directory (tenant) ID
-CLIENT_ID  = "165ce690-4aaf-4433-8d8e-205a5cb1f402"   # Application (client) ID
-DATAVERSE_URL    = "https://orgc1a3d9f4.crm.dynamics.com"
+TENANT_ID  = "YOUR_TENANT_ID"    # Directory (tenant) ID
+CLIENT_ID  = "YOUR_CLIENT_ID"   # Application (client) ID
+DATAVERSE_URL    = "https://YOUR_ORG.crm.dynamics.com"
 PUBLISHER_PREFIX = "cr"        # matches your solution publisher
 TABLE_SCHEMA_NAME   = f"{PUBLISHER_PREFIX}_PPEKitRecommendation"
 TABLE_LOGICAL_NAME  = TABLE_SCHEMA_NAME.lower()        # cr_ppekitrecommendation

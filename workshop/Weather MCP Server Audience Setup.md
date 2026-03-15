@@ -13,11 +13,11 @@ Use this when demonstrating how attendees add the weather server to their Copilo
 
 Primary endpoint URL:
 
-https://ca-warehouse-weather-mcp.victoriousmoss-972f32c5.eastus.azurecontainerapps.io/mcp/
+https://YOUR_APP_NAME.YOUR_ENVIRONMENT.YOUR_REGION.azurecontainerapps.io/mcp/
 
 If a client asks for base URL instead of endpoint path, use:
 
-https://ca-warehouse-weather-mcp.victoriousmoss-972f32c5.eastus.azurecontainerapps.io
+https://YOUR_APP_NAME.YOUR_ENVIRONMENT.YOUR_REGION.azurecontainerapps.io
 
 ## Minimal Action Template
 

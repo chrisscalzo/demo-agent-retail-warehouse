@@ -1,7 +1,7 @@
 param(
     [string]$Location = "eastus",
     [string]$ResourceGroup = "rg-warehouse-mcp-weather",
-    [string]$AcrName = "acrwarehouse83108",
+    [string]$AcrName = "yourcontainerregistry",
     [string]$EnvName = "acae-warehouse-mcp",
     [string]$AppName = "ca-warehouse-weather-mcp",
     [string]$ImageTag = "1.0.0"

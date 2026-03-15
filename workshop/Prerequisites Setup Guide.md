@@ -33,7 +33,7 @@ Both SharePoint and Dataverse scripts authenticate using MSAL Device Code Flow. 
 ### Copy IDs
 
 - From the Overview page, copy the Application (client) ID and Directory (tenant) ID.
-- You will paste these into the CONFIG section of each script before running it.
+- You will paste these into the CONFIG section of each script before running it. The scripts ship with placeholder values (YOUR_TENANT_ID, YOUR_CLIENT_ID, etc.) that must be replaced with your actual values.
 
 ## 3) Create the SharePoint Site
 
@@ -80,10 +80,10 @@ The Safety Issue Log list stores reported safety issues. The agent reads from th
 ### Update Script Configuration
 
 1. Open scripts/setup_sharepoint_list.py in a text editor.
-2. In the CONFIG section near the top, update:
-   - TENANT_ID: your Directory (tenant) ID from the app registration
-   - CLIENT_ID: your Application (client) ID from the app registration
-   - SITE_URL: your SharePoint site URL (e.g., https://yourtenant.sharepoint.com/sites/RetailWarehouseDemo)
+2. In the CONFIG section near the top, replace the placeholder values:
+   - TENANT_ID: replace YOUR_TENANT_ID with your Directory (tenant) ID
+   - CLIENT_ID: replace YOUR_CLIENT_ID with your Application (client) ID
+   - SITE_URL: replace YOUR_TENANT.sharepoint.com/sites/YOUR_SITE with your actual SharePoint site URL
 3. Save the file.
 
 ### Run the Script
@@ -110,11 +110,11 @@ The PPE Kit Recommendation table in Dataverse is used by the PPE Suggestion chil
 ### Update Script Configuration
 
 1. Open scripts/setup_dataverse_ppe_table.py in a text editor.
-2. In the CONFIG section near the top, update:
-   - TENANT_ID: your Directory (tenant) ID
-   - CLIENT_ID: your Application (client) ID
-   - DATAVERSE_URL: your Dataverse environment URL (find this in the Power Platform admin center under Environments, then your environment, then Environment URL)
-   - PUBLISHER_PREFIX: your solution publisher prefix (default is "cr")
+2. In the CONFIG section near the top, replace the placeholder values:
+   - TENANT_ID: replace YOUR_TENANT_ID with your Directory (tenant) ID
+   - CLIENT_ID: replace YOUR_CLIENT_ID with your Application (client) ID
+   - DATAVERSE_URL: replace YOUR_ORG.crm.dynamics.com with your Dataverse environment URL (find this in the Power Platform admin center under Environments, then your environment, then Environment URL)
+   - PUBLISHER_PREFIX: update if your solution publisher prefix is not "cr"
 3. Save the file.
 
 ### Run the Script

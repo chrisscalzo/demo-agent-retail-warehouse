@@ -3,7 +3,7 @@ info:
   title: Warehouse Weather MCP
   description: Streamable MCP endpoint for current weather and daily forecast tools used by the Warehouse Assistant agent.
   version: 1.0.0
-host: ca-warehouse-weather-mcp.victoriousmoss-972f32c5.eastus.azurecontainerapps.io
+host: YOUR_APP_NAME.YOUR_ENVIRONMENT.YOUR_REGION.azurecontainerapps.io
 basePath: /
 schemes:
   - https
@@ -15,7 +15,7 @@ securityDefinitions:
 security: []
 x-ms-connector-metadata:
   - property: Website
-    value: https://ca-warehouse-weather-mcp.victoriousmoss-972f32c5.eastus.azurecontainerapps.io
+    value: https://YOUR_APP_NAME.YOUR_ENVIRONMENT.YOUR_REGION.azurecontainerapps.io
   - property: Privacy policy
     value: https://privacy.microsoft.com
   - property: Categories

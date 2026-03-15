@@ -43,15 +43,15 @@ import msal
 import requests
 
 # ── CONFIG ─────────────────────────────────────────────────────────────────────
-TENANT_ID  = "2540c676-79f2-4c66-894b-0a60644507f0"   # Directory (tenant) ID from Azure AD
-CLIENT_ID  = "165ce690-4aaf-4433-8d8e-205a5cb1f402"   # Application (client) ID from Azure AD
-SITE_URL   = "https://m365x17959284.sharepoint.com/sites/RetailWarehouseDemo"
+TENANT_ID  = "YOUR_TENANT_ID"    # Directory (tenant) ID from Azure AD
+CLIENT_ID  = "YOUR_CLIENT_ID"   # Application (client) ID from Azure AD
+SITE_URL   = "https://YOUR_TENANT.sharepoint.com/sites/YOUR_SITE"
 LIST_NAME  = "Safety Issue Log"
 TOKEN_CACHE_FILE = ".token_cache.json"
 # ───────────────────────────────────────────────────────────────────────────────
 
 AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
-SP_HOST   = SITE_URL.split("/sites/")[0]   # e.g. https://m365x17959284.sharepoint.com
+SP_HOST   = SITE_URL.split("/sites/")[0]   # e.g. https://contoso.sharepoint.com
 SCOPES    = [f"{SP_HOST}/AllSites.Manage"]
 
 

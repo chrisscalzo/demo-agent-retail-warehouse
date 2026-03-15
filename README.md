@@ -14,11 +14,26 @@ Demo content and Microsoft Copilot Studio agent for retail warehouse workers (te
 | `workshop/` | Workshop deliverables (slide decks, setup guides) |
 | `mcp-weather-server/` | Self-contained Weather MCP server (own requirements.txt) |
 
+## Important: Configuration Required
+
+The Python scripts and MCP connector YAML ship with placeholder values that you **must** replace with your own environment details before running anything:
+
+| Placeholder | Where to get it | Files |
+|-------------|-----------------|-------|
+| `YOUR_TENANT_ID` | Azure AD > App registrations > Overview > Directory (tenant) ID | `scripts/setup_sharepoint_list.py`, `scripts/setup_dataverse_ppe_table.py` |
+| `YOUR_CLIENT_ID` | Azure AD > App registrations > Overview > Application (client) ID | Same two scripts |
+| `YOUR_TENANT.sharepoint.com/sites/YOUR_SITE` | Your SharePoint site URL | `scripts/setup_sharepoint_list.py` |
+| `YOUR_ORG.crm.dynamics.com` | Power Platform admin center > Environments > Environment URL | `scripts/setup_dataverse_ppe_table.py` |
+| `YOUR_APP_NAME...azurecontainerapps.io` | Output of `scripts/deploy_weather_mcp_azure.ps1` | `mcp-weather-server/copilot-studio-mcp-connector.yaml`, `workshop/Weather MCP Server Audience Setup.md` |
+
+See the [Prerequisites Setup Guide](workshop/Prerequisites%20Setup%20Guide.md) for full details on creating the app registration and obtaining these values.
+
 ## Quick Start
 
-1. **Prerequisites**: Follow `workshop/Prerequisites Setup Guide.md` to set up the Azure AD app registration, SharePoint site, document library, Safety Issue Log list, and Dataverse PPE table.
-2. **Build the agent**: Follow `workshop/Copilot Studio Build Plan - Warehouse Assistant Agent.md` to create and configure the Copilot Studio agent.
-3. **Test**: Use the demo prompts in `agent/demo_prompts.txt` to validate all capabilities.
+1. **Configure**: Replace the placeholder values listed above with your environment details.
+2. **Prerequisites**: Follow `workshop/Prerequisites Setup Guide.md` to set up the Azure AD app registration, SharePoint site, document library, Safety Issue Log list, and Dataverse PPE table.
+3. **Build the agent**: Follow `workshop/Copilot Studio Build Plan - Warehouse Assistant Agent.md` to create and configure the Copilot Studio agent.
+4. **Test**: Use the demo prompts in `agent/demo_prompts.txt` to validate all capabilities.
 
 ## Key Files
 
